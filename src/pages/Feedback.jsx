@@ -12,7 +12,7 @@ const Feedback = () => {
         repo="princetonhuaren/princetonhuaren.github.io"
         repoId="R_kgDOOMiq3w"
         category="General"
-        categoryId="DIC_kwDOOMiq384CoW5R-s"
+        categoryId="DIC_kwDOOMiq384CoW5R"
         mapping="pathname"
         reactionsEnabled="1"
         emitMetadata="1"
