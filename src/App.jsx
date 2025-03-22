@@ -71,9 +71,9 @@ function App() {
       <Content>
         <BrowserRouter basename="/">
           <Routes>
-            <Route exact path="/" element={<Home />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/about" element={<About />} />
+            <Route exact path="/" element={<Home />} />
 
             {/* <Route element={<AuthLayout />}>
     <Route path="login" element={<Login />} />
