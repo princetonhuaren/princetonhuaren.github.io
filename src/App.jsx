@@ -4,10 +4,10 @@ import React from "react";
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Feedback from "./pages/Feedback";
 import Notes from "./pages/Notes";
 import { Layout, Menu } from "antd";
-import { HomeOutlined, WechatOutlined } from "@ant-design/icons";
+import { HomeOutlined, WechatOutlined, SendOutlined } from "@ant-design/icons";
 
 // const footerStyle = {
 //   textAlign: "center",
@@ -30,13 +30,19 @@ function App() {
       label: <a href="/">主页</a>,
       key: "home",
       icon: <HomeOutlined />,
-      href: "/",
+      // href: "/",
     },
     {
       label: <a href="#/notes">信息分享</a>,
       key: "news",
       icon: <WechatOutlined />,
-      href: "/notes",
+      // href: "/notes",
+    },
+    {
+      label: <a href="#/feedback">用户反馈</a>,
+      key: "feedback",
+      icon: <SendOutlined />,
+      // href: "/notes",
     },
   ];
   return (
@@ -72,7 +78,7 @@ function App() {
         <HashRouter basename="/">
           <Routes>
             <Route path="/notes" element={<Notes />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/feedback" element={<Feedback />} />
             <Route exact path="/" element={<Home />} />
 
             {/* <Route element={<AuthLayout />}>
