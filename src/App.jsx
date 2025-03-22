@@ -69,7 +69,7 @@ function App() {
         </div> */}
       </Header>
       <Content>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/notes" element={<Notes />} />
