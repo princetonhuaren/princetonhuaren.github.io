@@ -69,7 +69,7 @@ function App() {
         </div> */}
       </Header>
       <Content>
-        <BrowserRouter basename="/princetonhuaren">
+        <BrowserRouter>
           <Routes>
             <Route index element={<Home />} />
             <Route path="notes" element={<Notes />} />
