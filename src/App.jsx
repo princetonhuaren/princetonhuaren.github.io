@@ -71,7 +71,7 @@ function App() {
       <Content>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/about" element={<About />} />
 
