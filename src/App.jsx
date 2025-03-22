@@ -2,7 +2,7 @@ import React from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Notes from "./pages/Notes";
@@ -69,7 +69,7 @@ function App() {
         </div> */}
       </Header>
       <Content>
-        <BrowserRouter basename="/">
+        <HashRouter basename="/">
           <Routes>
             <Route path="/notes" element={<Notes />} />
             <Route path="/about" element={<About />} />
@@ -86,7 +86,7 @@ function App() {
     <Route path="trending" element={<Trending />} />
   </Route> */}
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </Content>
       {/* <Footer style={footerStyle}>This is the footer</Footer> */}
     </Layout>
