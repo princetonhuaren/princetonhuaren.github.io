@@ -2,7 +2,7 @@ import React from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
-import { HashRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Notes from "./pages/Notes";
@@ -33,7 +33,7 @@ function App() {
       href: "/",
     },
     {
-      label: <a href="/notes">信息分享</a>,
+      label: <a href="#/notes">信息分享</a>,
       key: "news",
       icon: <WechatOutlined />,
       href: "/notes",
