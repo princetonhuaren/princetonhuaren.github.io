@@ -20,6 +20,7 @@ const Feedback = () => {
         inputPosition="top"
         loading="lazy"
         lang={"en"}
+        
       />
       {/* <script
         src="https://giscus.app/client.js"
