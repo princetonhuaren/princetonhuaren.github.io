@@ -3,7 +3,6 @@ export const notes = [
     id: 1,
     title: "理发美发",
     content: `
-    
     *******大普林华人生活群信息:理发美发 ***************
 为服务大普林地区的居民，本群定期发送生活服务信息，全是群主在各个微信群收到的微信信息集中，完全基于个人推荐，无法保证信息真实，用前请货比三家。也欢迎各位群友发送评论和信息，及时登出反馈。群主微信号：yalichen15
 
@@ -56,7 +55,7 @@ HAIR STRUCTURE
 
 Serena 609 955 2165
 我小孩想染发，她的价格在100-350美元左右
-手艺很好！找Serena理发后我妈都说我年轻了十几岁😊
+手艺很好！找Serena理发后我妈都说我年轻了十几岁
 普林周边最靠谱的美发师。非常敬业，理发技术高超，收费合理！
 看到群里推荐的Serena 理发美容，今天下午和女儿去剪发，果然名不虚传，货真价实，这年头能够找到如此手艺高超，价格便宜的剪发太难了。谢谢Serena 让我看起来年轻了好多啊，又可以美美哒啦
 https://calendly.com/serenajiang9050/serena
@@ -116,7 +115,7 @@ Hertz网站上免费翻译即可，即使换驾照，DMV一样认可
 这个office只要是中国驾照应该就给免路试
 我在3200 Brunswick Pike, Lawrence Township, NJ 08648拿到了
 
-@ZXL #小程序://Hertz国际租车/u8mZkABPByrzw6p
+#小程序://Hertz国际租车/u8mZkABPByrzw6p
 
 撞车后如果那人已走了， 给对方打电话， 要Insurance info， 马上打她的insurance。 如果她不给， 说要报警， 如果她真的不给， 你马上打电话。 事出哪一township， 就打那township police
 
@@ -152,14 +151,13 @@ favicon.ico
 餐馆的推荐比较难，每个人的口味都不一样。下面几个中国餐馆我们试过，还及格。
 
 Canton Palace
-点心         908     526     8888    
+点心 908-526-8888    
 Reserve a table
-Dine-in·√Takeout·√No-contact delivery   >       
+Dine-in·Takeout·No-contact delivery       
 216 W Main St,Somerville,NJ 08876
 
 Golden Seafood Restaurant
-Cantonese restaurant.$10-20. 牛肉高超    8.95    
-En19.95售菜肉油17.95成家1825西湖牛肉塞米 17.95
+Cantonese restaurant.$10-20.
 518 Old Post Rd Suite 3, Edison, NJ 08817
 1711 NJ-27, Edison, NJ 08817
 广东餐馆。饮茶或广东小炒。
@@ -170,9 +168,8 @@ Weee 上可以买 Edison送餐；可以和菜一起买。满50才免运费；有
 
 如果喜欢川菜就试试Hamilton 的川妹子。我们特别喜欢他们的“酸豆角炒肉末”。用的是他们自己泡的酸豆角。
 
-我们比较喜欢“莲园”的沙锅鱼头或沙锅鲈鱼（晚餐）和牛腩汤河粉（中餐，很有广州街头小吃的感觉）。
-态度很差，味道一般，菜太贵
-点个西湖牛肉羹。 不知道从什么时候开始，默认20多块是2人份，6个人算6人份，一份和原来大小一样的羹（切成大正方块的豆腐，牛肉是牛肉末）卖60多；反正这家店是被我拉黑了
+我们比较喜欢“莲园Lotus Garden”的沙锅鱼头或沙锅鲈鱼（晚餐）和牛腩汤河粉（中餐，很有广州街头小吃的感觉)
+10 Schalks Crossing Rd, Plainsboro Township, NJ 08536
 
 Hot Wok Café
 店不大，定位比较有意思，单体菜价不便宜，但量很足
@@ -180,17 +177,17 @@ Hot Wok Café
 
 Hotpot
 人均：$35 地址：561 US-1 Edison , NJ 08817电话：732-354-3078
-小提示：全新开张晚餐时段可能需要排队 
 
-Blue Point Grill，258 Nassau St, Princeton, NJ 08542； Kristine's，51 Witherspoon St, Princeton, NJ 08542；Lan Ramen，4 Hulfish St, Princeton, NJ 08542；
-@普林斯顿陈老师-文书辅导 推薦一下剛發的兩家在Edison 的餐館，「蜀湘門第」的烤鴨不錯。 
+Blue Point Grill，258 Nassau St, Princeton, NJ 08542
+Kristine's，51 Witherspoon St, Princeton, NJ 08542
 
 Chef Tan Highland
 Raritan Ave, Highland Park, NJ 08904
 Find a table• cheftanhighlandparknj.com
 
 
-下面這兩家粵菜是同一個老闆，用心經營。點心據說是師傅自己做的，也不錯。Green Lake Seafood:
+下面這兩家粵菜是同一個老闆，用心經營。點心據說是師傅自己做的，也不錯
+Green Lake Seafood:
 Dim Sum
 • $20-30 • Chinese restaurant •19 US-22, Green Brook Township, NJ 08812
 翠湖海鲜酒家 nj
@@ -207,17 +204,17 @@ Shu House
 这家shu house挺好的，我以前经常订午餐，因为有午市套餐很实惠。周一到周五中午有午市套餐。
 
 普林斯顿新开的 Local 手作卤味；定期送货；每日新鲜采购，纯手工现卤，0添加，无科技与狠活，天然健康，每一口都是新鲜出炉的味道！
-📍 微信联系：LuzhiweiNJ
-品味地道卤香！
+微信联系：LuzhiweiNJ
+品味地道卤香
 
-Princeton Downtown的 Lan Ramen  
-他們家除了 麵條，其他的菜都不錯。（拉麵真的很難吃，不要點。麵很斷，湯沒味道）
+Lan Ramen，4 Hulfish St, Princeton, NJ 08542
+Princeton Downtown的 Lan Ramen
 非常推薦他的fiery lamb stew of Lanzhou 燉羊肉
-麻辣乾鍋、鹽酥雞、九層塔炒飯 都好吃。
+麻辣乾鍋、鹽酥雞、九層塔炒飯 都好吃
 之前有羊肉包子和台灣牛肉捲餅也好吃（但好像有一陣子沒做了，不知道什麼時後會恢復）
 
 Thai Village也不错，味道正宗，价格非常合理，特别喜欢他们的drunken noodles
-老板也经营一家非常好吃的法国精品糕点店，Tous Les Jours
+老板也经营一家非常好吃的法国精品糕点店，Tous Les Jours （64 Princeton Hightstown Rd Unit 5, Princeton Junction, NJ 08550）
 在Woori Mart 旁边，价格不低但是好吃至极，大普林区域最好的糕点店
 
 刘一手火锅挺好的，有点贵。east Windsor 的湖南歺馆还不错，价格也公道
@@ -225,8 +222,7 @@ Thai Village也不错，味道正宗，价格非常合理，特别喜欢他们�
 两家九个人聚餐，大概260美元，很多免费小吃
 
 上海菜 
-Tasty Moment    小食代   小食代不错👍 
-tasty moment
+Tasty Moment小食代
 1711 NJ-27, Edison, NJ 08817
 Located in: Festival Plaza
 
@@ -238,10 +234,9 @@ Top Korean Restaurants: So Moon Nan Jip, 238 Broad Ave
 Palisades Park, NJ  (Korean town) & Dong Bang Grill 1616 Palisades Ave., Fort Lee 
 
 Asian Bistro    31 Station Dr, Princeton Junction,NJ 08550
-@Lily Chen_普林斯顿 @Shaofei Lu 这家还可以。是韩国人开的。
-@Lily Chen_普林斯顿 @Lily Chen_普林斯顿 上面两家都是韩国朋友推荐她们认为最佳的.我去过第一家友人说远超NYC K-Town’s 韩国料理店
+这家还可以。是韩国人开的。
+上面两家都是韩国朋友推荐她们认为最佳的.我去过第一家友人说远超NYC K-Town’s 韩国料理店
 
-@天璇地轉 说的是禧锅呀，喜欢台式的可以去27号路原好运来超市对面的蜀美林，很多台湾人在那里吃。看名字还以为是川菜，其实一半是正宗台式料理。
 
 如果喜歡台灣小吃的話，我也蠻推薦
 Little Pot 
@@ -252,9 +247,6 @@ Little Pot
 但我其實覺得它火鍋就ok，沒有到驚艷等級。
 鹹酥雞、脆皮大腸、咖哩蛋包飯、台式臭豆腐、炸豬排飯是真的好吃、很正宗的味道
 
-多谢群友分享！ 接着问，火锅哪家强？已经吃过刘一手，重庆码头，海底捞。德庄好吃吗？附近和 纽约还有更好吃的火锅推荐吗？食材够新鲜的
-我覺得德庄好吃，比南邊的劉一手好吃，食材比較新鮮、湯底味道也好
-我們一般都是去那裡吃
 
 山城码头，在Edison
 
@@ -267,10 +259,6 @@ All you can eat 的日餐在老美东那个plaza角落有一家开了有些年�
 
 Choo Choo Train Sushi
 374 Broad Ave, Leonia, NJ 07605
-
-我還沒去過，但在我的wish list上。😆 
-想去Lawrenceville一間評分4.9的懷石料理，感覺他們的生魚片應該會很厲害。
-如果有人去過的話，跟我分享一下新的😄🙏🏻
 
 Naoki Sushi
 2649 Main St, Lawrence Township, NJ 08648
@@ -288,17 +276,8 @@ Happy Lamb Hot Pot, Edison
 At this Mongolian chain eatery
 1737 NJ-27, Edison, NJ 08817, United States
 
-请问附近有没有跳蚤市场 可以卖二手东西的 
-Englishtown or Columbus Farmers Market.
-请问附近有没有跳蚤市场 可以卖二手东西的 
-@RoRo 离这里不远Lamberville Golden Nuggets Flea Market (星期三，六，日开）。另外Lambertville, NJ和Delaware 河对面New Hope, PA有几个古董店卖挺有艺术气息的东西（绘画，家俱，收藏品等等。不便宜，确实是好东西）。
-
-@王Bobo 今天在教会 一个朋友说可以去这里买二手儿童产品：https://mercercounty.jbfsale.com
-
-Englishtown or Columbus Farmers Market.
-
 Shaofei Lu： 大家知道在哪儿能买到中国的白酒吗？
-Hightstown Liquors & Wines LLC • 4.2* (41) • ...
+Hightstown Liquors & Wines LLC
 107 Stockton St, Hightstown, NJ
 08520
 这家店是中国人开的，有中国的烈酒买.
@@ -320,11 +299,11 @@ Edgewater, NJ 07020
 配镜，Costco 性价比最高，可以预约验光和年度眼科检查。
 别去Costco验光，至少别去咱们附近那家。那里的验光师给的prescription 度数太高，眼镜戴上不舒服。我请他调整，更不舒服了 我只好又其他地方的验光师重新验的。
 
-@all 请问谁了解Otho-K 隐形眼镜在哪里配比较好？
+请问谁了解Otho-K 隐形眼镜在哪里配比较好？
 Call Us: (609) 581-5755
 Eyecare Professionals PC, 1777 Kuser Rd, Hamilton Township, NJ 08690 
 
-@颜 Fred-Pennington-08534 EyeCare Professionals, PC
+Fred-Pennington-08534 EyeCare Professionals, PC
 1777 Kuser Road Hamilton, NJ 08690
 609-581-5755 (P) 609-581-7055 (F)
 
@@ -368,9 +347,8 @@ group doctors   Phone:(609)921-9437
 Located in: Windsor Green
 609) 919-1001
 
-@范杰 Dr. Sun eye care at Plainsboro
-@Lina 孙笑音   Dr Sun Eye Care LLC  3 Market Street, Plainsboro Township, NJ 08536  群里应该挺多人都看过她
-我们家用的是Dr. Sun eye care， in Plainsboro, 费用三年前$2000 左右
+Dr Sun Eye Care LLC  3 Market Street, Plainsboro Township, NJ 08536  群里应该挺多人都看过她
+我们家用的是Dr. Sun eye care 费用三年前$2000 左右
 
 回馈下昨天眼科医生的咨询，princeton eye care 可能名气真的很大，现在约都是两个月以后了。所以我着急去看的是the eye center in Edison，对于这种retinal tear的病例实际上有个专业团队叫nj retinal center，直接找他们看就好了。我们是在eye center 做完又被推荐去rentinal center，花了两份钱，一般这种case都比较紧急，所以就直接安排laser treatment了。已经做完，后续再来反馈治疗效果。多谢🙏
 
@@ -387,7 +365,7 @@ Dr Michael Wong
 609-921-9437 
 appointment 不好make.  建議打電話時，
 説是emergency!!! 把您眼的嚴重情形告訴receptionist, 懇請Dr 儘快約時問. Good luck!
-@lulu -我是8年前在西海岸做的。我前面推荐的Campus Eye Group也可以做激光手术。他们的Specialist很多。
+我是8年前在西海岸做的。我前面推荐的Campus Eye Group也可以做激光手术。他们的Specialist很多。
 
 请问大家有没有配儿童OK镜的医生推荐？我家小孩可能不得不戴OK镜了。求推荐，万分感谢🙏
 Eyecare Professionals
@@ -406,7 +384,7 @@ chop.edu
 favicon.ico
 They have a location in Plainsboro and see children with vision issues. @Miss Gloria 
 
-@Fran  去Hamilton的Eyecare Professional 可能要先问－下孩子是否能做vision therapy. 诊所应有在电脑上可以测试两个眼睛之间的协调和眼睛与大脑的协调。保险公司凭测试结果决定是否付费做therapy. 如果vision therapy 可以帮助的话，就可能今后不需要戴OK 镜, 也可能不容易变近视。这家看网页是有能力做vision therapy. 
+去Hamilton的Eyecare Professional 可能要先问－下孩子是否能做vision therapy. 诊所应有在电脑上可以测试两个眼睛之间的协调和眼睛与大脑的协调。保险公司凭测试结果决定是否付费做therapy. 如果vision therapy 可以帮助的话，就可能今后不需要戴OK 镜, 也可能不容易变近视。这家看网页是有能力做vision therapy. 
 
 https://www.chop.edu/locations/specialty-care-princeton-plainsboro?utm_source=gmb&utm_medium=organic&utm_campaign=network_scc&utm_content=locations_specialty_care_princeton_plainsboro_cta_button_consumer_consideration_all   @Miss Gloria 
 
@@ -416,9 +394,9 @@ Address: 211 N Harrison St, Princeton,NJ 08540
 Hours: Open.Closes 6 PM▼ Phone:(609) 921-6620
 
 朋友们， 可以推荐一下做 lasik eye surgery 的医生吗？ 现谢谢大家🌹
-@Grace Zhang，CPA Dr. Michael Wong https://www.princetoneyegroup.com/ 我2005年找他做的，非常推荐
+CPA Dr. Michael Wong https://www.princetoneyegroup.com/ 我2005年找他做的，非常推荐
 
-@傅琳 Delaware valley retina. I like them a lot better than NJ retina 
+Delaware valley retina. I like them a lot better than NJ retina 
 https://www.willseye.org/medical-services/eye-emergency-department/
 24x7, 任何时候都可以walk in，就是有点远。对面有车库存车。
 snow_emergency_room-27-1.jpg
@@ -427,21 +405,20 @@ willseye.org
 24x7, 任何时候都可以walk in，就是有点远。对面有车库存车。
 处理之后他们会转其他科，或者回自己医生处。这是附近唯一一家眼科急诊。
 
-@岳力 @FangD 非常感谢！ 收藏了，以后总有人用得着。昨天后来找到了MarketFair旁边的一个眼科诊所，擅长诊治青光眼的医生，还不错，及时处理了。
+昨天后来找到了MarketFair旁边的一个眼科诊所，擅长诊治青光眼的医生，还不错，及时处理了。
 
 这个里面提到的Eyecare Professionals
 1777 Kuser Rd
 Hamilton Township, NJ 08690
 就是著名的Dr D
-@Fran Hamilton的Eyecare Professional裡面有位Dr D專門做這個，客戶全是中國孩子
+Hamilton的Eyecare Professional裡面有位Dr D專門做這個，客戶全是中國孩子
 非常推荐Dr. D. 很专业也很有爱心
 听来很不错，所以也有人说价钱不便宜
 唐姐介绍的Dr.D 非常专业 全州顶级医生 业务能力强啊。我家四年了，都没有问题
-@多巴胺 谢谢，但是Dr.D太难约，当初就是要等半年，才选了别的医生
+谢谢，但是Dr.D太难约，当初就是要等半年，才选了别的医生
 
-@Jalyn 我儿子以前也是这样，戴了OK镜后，每两年近视度数会涨50度，换了医生就很满意了，眼睛近视度数也不涨了。
 
-@Jalyn OK镜EYECARE Dr.Nicholas despotidis (609) 581-5755. 这家非常好。
+OK镜EYECARE Dr.Nicholas despotidis (609) 581-5755. 这家非常好。
 
 想请问一下在大普林斯顿附近，给孩子看Vision Therapy 的医生只有在206 上的Dr. Herzberg Chaya OD吗？Vision Therapy 是帮助孩子或者大人通过锻练眼睛之间和大脑的协调，增强运动员体育运动反应速度和提高英语阅读速度。医疗保险付的疗程，一般是12周。对健康孩子和有两个眼睛在近视距离上使用有差别的孩子，都会有帮助。谢谢！
 
@@ -449,11 +426,11 @@ Hamilton Township, NJ 08690
 
 家人眼睛出现飞蚊症，请问有眼科医生推荐吗？
 
-@Tonyxu try “Kung Eye Center” at East Brunswick
+try “Kung Eye Center” at East Brunswick
 
 对飞蚊症，眼科大夫能做的非常有限
 
-@Tonyxu 我被羽毛球打到眼睛后开始有飞蚊症，医生检查完后告知一个月后就适应了
+我被羽毛球打到眼睛后开始有飞蚊症，医生检查完后告知一个月后就适应了
 
 我之前有一天忽然有飞蚊症，看医生也说充分休息，少用眼就会好，没有治疗方法。果然第三天就没了
 
@@ -484,18 +461,17 @@ Matossian Eye Associates +1 (609) 604-6379, Hopewell office, Rwj大楼那里但�
 一般三到六个礼拜
 
 请问有谁知道怎么让国内亲戚寄东西过来，谢谢
-@陈利 试试顺丰国际
+试试顺丰国际
 紧急求助请问有没有哪位朋友今天晚上-6/20期间，会从新泽西/纽约飞北京（6/21 能到）。需要帮忙带一本护照。谢谢
-@Xiaohong ，我用过顺丰快递寄护照回国，非常安全，准时到达，不过需要5-7天，24美刀
+我用过顺丰快递寄护照回国，非常安全，准时到达，不过需要5-7天，24美刀
 
-@Mary 不着急也不想跑远，普林快递不错。想早点寄出的H mart附近有家快递公司
+不着急也不想跑远，普林快递不错。想早点寄出的H mart附近有家快递公司
 Hmart附近的比较快的是这家
 XZX EXPRESS INC.
 (908)583-3838
 1603 NewJersey27 Edison, NJ08817 USA
 这家在Ｈmart附近，给国内寄过两次。七月份这次很快，不到两周收到
 
-@Mary  不着急也不想跑远，普林快递不错
 普林快递Susan Yang（杨姗）
 微信号：shanyang618
 
@@ -519,7 +495,7 @@ Dwayne collect scrap metals for free. 将我n 年不用的stove，microwave， �
 https://www.princetonnj.gov/445/Public-Works
 
 我推荐一个dumpster rental : blue rhino dumpster rental 732-322-5327  价格和服务公道
-@普林斯顿陈老师-文书辅导 有没有pick up旧沙发的service可推荐？ 谢谢！
+有没有pick up旧沙发的service可推荐？ 谢谢！
 
 1-800-GOTJUNk
 
@@ -530,7 +506,7 @@ The Jewish Center Princeton
 thejewishcenter.org
 435 Nassau St, Princeton, NJ 08540
 
-@飛雪迎春 https://www.princetonnj.gov/1359/Trash-Collection
+https://www.princetonnj.gov/1359/Trash-Collection
 Clink on bulk waste collection
 
 Pickup Please，为越南老兵捐赠的福利机构。收集衣服鞋玩具书家具家庭常用物品。 will come and pick up the following donations:
@@ -563,31 +539,31 @@ $105/Hour
 今天请了旺发搬家公司帮忙搬家，服务非常好，打包细致周全，还负责拆卸和安装床，价格合理，服务可靠，值得向大家推荐! 
 推薦Tony Moving 我女兒搬家刚用过，很专业，鏡子，饭桌等等包好，人也很好
 
-@若水 以下是之前分享的-远距离或是跨国搬家可以找飞达luckymoving.com,近距离或小搬家可以找老蒋搬家，人很实在，价格公道 - 新州搬家公司電話9173880039
+以下是之前分享的-远距离或是跨国搬家可以找飞达luckymoving.com,近距离或小搬家可以找老蒋搬家，人很实在，价格公道 - 新州搬家公司電話9173880039
 
 我用过Lucky moving 飞达搬家 (732) 432-4288 推荐
 
-@夏, Jigang http://www.empirepianomovers.com
+http://www.empirepianomovers.com
 
-@晶 Jing 我用过搬家公司，不需要给小费的，都包括在里面了。是一家华人搬家公司，很仔细，搬的很好，家具都保护起来的。因为离的比较近，帮我搬了两三次呢。费用之前谈好，后面不需要给小费的。
+我用过搬家公司，不需要给小费的，都包括在里面了。是一家华人搬家公司，很仔细，搬的很好，家具都保护起来的。因为离的比较近，帮我搬了两三次呢。费用之前谈好，后面不需要给小费的。
 老蒋搬家
 19173880039
 还不错
 
-@晶 Jing 搬家小费我给过，每人50刀，搬家老板会向你要的
+搬家小费我给过，每人50刀，搬家老板会向你要的
 
 If you need same-day service please call/text me at 3479241811.
 Michael
 Magic Mike8:39下午
 Iwork at $125 1st hour with three people, $100 per hour after9:43下午
 
-@懒洋洋 我们用过蓝天搬家 (646) 821-1008 鲁先生。很好。他们在法拉盛
+我们用过蓝天搬家 (646) 821-1008 鲁先生。很好。他们在法拉盛
 
-@Lily Chen_普林斯顿 蒋先生 (917) 498-8216 微信号 stevenjiang1953
+蒋先生 (917) 498-8216 微信号 stevenjiang1953
 
 Bok moving 201-615-9600
 韩国人 老板Peter
-刚刚请他们搬家@金鑫 
+刚刚请他们搬家
 
 可以考慮这兩间, 都是local mover, Rite Move不喜欢用email, 电话上谈好了就算，好像不很专业，但我还是选了它，來了两个人，态度好，也做得很好。
 
@@ -603,11 +579,11 @@ twomenandatruck.com
 
 钢琴搬运/Piano Mover
 
-@Clare I used this company. Very professional and reasonably priced. http://www.empirepianomovers.com
+I used this company. Very professional and reasonably priced. http://www.empirepianomovers.com
 
-@丽 我用过这家：https://princetonmoving.com/
+我用过这家：https://princetonmoving.com/
 
-@Clare The price the company quoted for me was for a driving distance of about 45 mins with 6 steps to the living room and it was for a baby grand piano. The price was $300, but that was about 10 years ago.  You can call them to get a quote over the phone before you make a decision.
+The price the company quoted for me was for a driving distance of about 45 mins with 6 steps to the living room and it was for a baby grand piano. The price was $300, but that was about 10 years ago.  You can call them to get a quote over the phone before you make a decision.
 
 Duppy piano move
 (856)418-1927
@@ -616,7 +592,7 @@ MMS搬琴
 +1(201) 819-8064
 
 请问普林斯顿附近有没有什么接受捐赠物品的机构，而且可以上门取件的？
-@Lan https://www.gogreendrop.com
+https://www.gogreendrop.com
 VVA
 smallvva-pp-logo.png
 Schedule PPC Location
@@ -713,8 +689,7 @@ NJ这里有没有羽毛球拍网线的地方？
 我儿子喜欢打羽毛球，他的好几只拍子都是因为线断了，闲置在哪里
 哪位知道这边有专业绑线的师傅，请告知
 谢谢
-@高浚～抑善先生 https://nebcus.com 先自己打电话去schedule, 可以说中文，自己拿线去会比on site 买线便宜一些，告诉他们你想拉多少磅就好了
-@Emily （圆圆）在 Somerset，看link
+https://nebcus.com 先自己打电话去schedule, 可以说中文，自己拿线去会比on site 买线便宜一些，告诉他们你想拉多少磅就好了
 
 羽毛球场地
 New Hope Badminton Academy
@@ -763,11 +738,11 @@ Also a $50 starter kit
 为服务大普林地区的居民，本群定期发送生活服务信息，全是群主在各个微信群收到的微信信息集中，完全基于个人推荐，无法保证信息真实，用前请货比三家。也欢迎各位群友发送评论和信息，及时登出反馈。群主微信号：yalichen15
  
 我们用过carpet centers of nj 还不错  
-732-254-2060​
+732-254-2060
 917-923-7827
 Carpet centers of New Jersey是一家中国人，他们只换地毯不清洗
  
-Toilet​Kevin 609-306-2600
+Toilet Kevin 609-306-2600
  
 Kitchen
 Best Stone and Kitchen @ New Brunswick
@@ -776,14 +751,14 @@ Best Stone and Kitchen @ New Brunswick
 窗帘Custom blinds and drapery
 signaturedrapery@gmail.com
 732 443 0015
- @gtojty @Kay 我們用過這個。她主要是做Custom blinds. Graber 和 hunter douglas
+我們用過這個。她主要是做Custom blinds. Graber 和 hunter douglas
 
 9176175066
 Text 温师付
 水, 电, 工木都可以的
 群里推荐的那个温师傅出价特贵，以前用过温师傅还好
  
-Fence​
+Fence
 http://www.straightforwardfence.com/
  
 Fence contractor 
@@ -864,10 +839,9 @@ phone
 
 7326681604普通话 粤语;翻新改造有需要联系林师傅 
 
-@金鑫 东北师傅张克洋也不错，+1 (215) 858-1006，价格公道，人不错，比如加个门换个热水炉子换水管蛮好，但刷墙的细心活儿不够仔细
-@Nancy给我们改建时报过价，屋顶加一个老虎窗一万多（我们要加两个）。
-@++M 你问他似乎什么都可以做。所有镇里的审批申请他都不管，似乎英语不过关。他也没有注册许可。我们最后还是没找他做。
-@琳 2020年想装修时找过张师傅，人非常好！他的报价每平方英尺装修价位在240-300美元，人工占60%，地下室工程没有承包过他说不太了解。
+给我们改建时报过价，屋顶加一个老虎窗一万多（我们要加两个）。
+你问他似乎什么都可以做。所有镇里的审批申请他都不管，似乎英语不过关。他也没有注册许可。我们最后还是没找他做。
+2020年想装修时找过张师傅，人非常好！他的报价每平方英尺装修价位在240-300美元，人工占60%，地下室工程没有承包过他说不太了解。
 张师傅不管permit的申请，碰到需要permit的地方都要自己去做。华人师傅一般都不管申请permit，可能是语言不太行，而申请permit很麻烦，一来二去要和镇里管事的很多沟通，跑了无数趟，他们美国人也很官僚。我们弄了半天，就算了，太麻烦了，工程换了老美做。建议需要permit的还是找老美。
 
     `,
@@ -894,7 +868,7 @@ Yu.zhong.609@gmail.com
 小顾：harrygu123
 
 请问群里有人认识可以帮忙申请“申根”签证的中介吗？我网上预约晚了，预约不到想要走的日子了，想快速办理，否则机票就浪费了。” 帮忙一下
-@闲云🐳. https://www.americantranslationservice.com/c_visaservice.html
+https://www.americantranslationservice.com/c_visaservice.html
 
 应该就是重新办理，流程官网上有， 打领事馆电话咨询。 领事证件咨询电话：212-868 2078
 
@@ -903,7 +877,7 @@ Yu.zhong.609@gmail.com
 客服电话：18611895166
 小红书：吾爱签证中心(ID:428844330)
 
-@Dyan , 请联系Kathy: (732) 698-1888签证
+请联系Kathy: (732) 698-1888签证
 
 好消息：纽约领馆1月25号恢复领事证件大厅对外办公，1月16日开放网上预约功能！
 http://newyork.china-consulate.gov.cn/tzgg/202301/t20230113_11006691.htm
@@ -1012,7 +986,7 @@ Website:www.wmplegal.co
 Law Office of Fangzhou Ping
 Direct Line: 818-639-1788人很好 很负责
 
-@ A L L哪位同乡有认识移民律师经验丰富请推荐朋友公司需要招募一位。@天妮Kong 加州有个申律平律师，你在网上查一下
+哪位同乡有认识移民律师经验丰富请推荐朋友公司需要招募一位。加州有个申律平律师，你在网上查一下
 
 柳治平大隐律师＆昵称：柳治平大隐律师
 WeChat ID: whazupdoc
@@ -1092,11 +1066,11 @@ Hojoon Chung
 2014966242
 7325862563
 Hcas2012@gmail.com
-@April 这韩国人建筑师不错，价格合理，很容易打交道
+这韩国人建筑师不错，价格合理，很容易打交道
  
-@April Architect Ronald E. Rheaume, +1 (609) 213-8396、
+Architect Ronald E. Rheaume, +1 (609) 213-8396、
  
-@往家逃 这位建筑师，很有经验，价钱也非常公道。大小案子都接，可以简讯他Joe Mullaney Architectural and Structural design & engineering 2154993544
+这位建筑师，很有经验，价钱也非常公道。大小案子都接，可以简讯他Joe Mullaney Architectural and Structural design & engineering 2154993544
 
 再来求一个能检查房屋结构问题的structural engineer
 Lusu Ni
@@ -1114,7 +1088,7 @@ Structure engineering
 RPK in Fairless Hills, PA
 
 Builder/handyman
-NINI​
+NINI
 609-587-2411
  
 @霞Paul Pennachi，若干年前用过，还不错  
@@ -1122,25 +1096,25 @@ NINI​
 @凯 我们刚找他们做了装修报价，比其他报价高了至少五分之一。
 Paul Pennachi
 A.Penna@comcast.net
-(609)203-0033​
+(609)203-0033
  
 Kevin Moore。6093065942 
 remodel kitchen basement 
  
 Contractor CanAm Design & Build：609-255-3028给我换的烂掉的窗框和门框，找了五个地方，他家的报价最低。很忙需要预约，打电话不通留voicemail，给我很多顾客做过，好评率100% 。
-@西月CanAm专做后院小木屋/garage/shed的设计和建造，价格不算贵,工做的挺好. 在大普林区名声不错
-@微微 推荐！房屋改造时一面墙加了两个窗户。他们一般做商业工程，做工很好
-@雨 帮我把车库从毛坯房改成办公室，孩子偶尔用来和朋友做sleepover。做工慢了点，Have an eye for detail。很细致，工作后总是打扫基本干净。
+专做后院小木屋/garage/shed的设计和建造，价格不算贵,工做的挺好. 在大普林区名声不错
+推荐！房屋改造时一面墙加了两个窗户。他们一般做商业工程，做工很好
+帮我把车库从毛坯房改成办公室，孩子偶尔用来和朋友做sleepover。做工慢了点，Have an eye for detail。很细致，工作后总是打扫基本干净。
 里面有个Handyman Daniel （6092553028）,活儿很细致
-@林月 他们帮我翻修厨房和地下室。价格合理，负责任。可以帮助申请镇里的Permit。
-@Naomi 给我家装修了卫生间, 瓷砖厕便洗脸盆都换了，装了橱柜，把淋浴换了澡盆，收费材料和做工分开。价格合理，认真，会做水电，很会设计，他挑的颜色很耐看。
+他们帮我翻修厨房和地下室。价格合理，负责任。可以帮助申请镇里的Permit。
+给我家装修了卫生间, 瓷砖厕便洗脸盆都换了，装了橱柜，把淋浴换了澡盆，收费材料和做工分开。价格合理，认真，会做水电，很会设计，他挑的颜色很耐看。
 Dan 手艺确实不错。今天刚帮我修了地板。
 
 富林橱柜地板公司的柜子质量挺好的. 1627 route 27 Edison NJ
 
 郑师傅 Plumbing/handyman/whole house 201-658-5908
 真的非常棒，这个师傅啊，收费非常非常合理，而且做工很认真啊，活做的非常好,他什么都会啊，然后他也有几十年的功底。
-@Lily这位郑师傅我不推荐，给我们家做装修项目，都谈好了，做到一半要加钱，而且加很多，没同意，项目没做完就走了。这种行为太不负责任了。
+这位郑师傅我不推荐，给我们家做装修项目，都谈好了，做到一半要加钱，而且加很多，没同意，项目没做完就走了。这种行为太不负责任了。
 
 装修郑师傅，几年前给我做过，蛮容易沟通好，价格合理。 他想让我推荐下，他在纽约，小的Handyman的活没办法做。一般都是跑来一次做几天的。
 房屋违规处理 验房
@@ -1152,8 +1126,8 @@ David Mei (848) 219-2799
 微信 :Chokeberry2003
 contractor David Mei,他的收费不是最便宜的，但很合理，人也绝对是诚信認真负责。他也是realtor
 
-@金鑫 东北师傅张克洋也不错，+1 (215) 858-1006，价格公道，人不错，比如加个门换个热水炉子换水管蛮好，但刷墙的细心活儿不够仔细
-@Nancy给我们改建时报过价，屋顶加一个老虎窗一万多（我们要加两个）。
+东北师傅张克洋也不错，+1 (215) 858-1006，价格公道，人不错，比如加个门换个热水炉子换水管蛮好，但刷墙的细心活儿不够仔细
+给我们改建时报过价，屋顶加一个老虎窗一万多（我们要加两个）。
 @++M 你问他似乎什么都可以做。所有镇里的审批申请他都不管，似乎英语不过关。他也没有注册许可。我们最后还是没找他做。
 @琳 2020年想装修时找过张师傅，人非常好！他的报价每平方英尺装修价位在240-300美元，人工占60%，地下室工程没有承包过他说不太了解。
 张师傅不管permit的申请，碰到需要permit的地方都要自己去做。华人师傅一般都不管申请permit，可能是语言不太行，而申请permit很麻烦，一来二去要和镇里管事的很多沟通，跑了无数趟，他们美国人也很官僚。我们弄了半天，就算了，太麻烦了，工程换了老美做。建议需要permit的还是找老美。
@@ -1161,10 +1135,10 @@ contractor David Mei,他的收费不是最便宜的，但很合理，人也绝�
 Maryjo Eckhard​908-9630052
 改装洗手间内外，质量不错
  
-WB Construction LLC/Walter​
-2673971023​
-walterbednarz@gmail.com​​
-拆旧天窗换天窗$800 一个。​
+WB Construction LLC/Walter
+2673971023
+walterbednarz@gmail.com
+拆旧天窗换天窗$800 一个。
  
 魏师傅：(917) 963-6484
 有个做厨房的师傅很好，魏师傅，工好人也好但是价钱可能不是很便宜
@@ -1500,12 +1474,11 @@ Basement waterproof Sal Mendola         609 375-0466            还好，要讲�
 bill电话7323221378handyman
 装修地板
 
-@梅子 @Han @Chen Hong 推荐打磨地板的人Dr. Dustless, https://www.doctordustless.com 磨出来的灰尘几乎全部用管道排到室外，做完味道也不是非常厉害
+推荐打磨地板的人Dr. Dustless, https://www.doctordustless.com 磨出来的灰尘几乎全部用管道排到室外，做完味道也不是非常厉害
 
-@梅子 地板 Manuel +1 (732) 889-6853
+地板 Manuel +1 (732) 889-6853
 
-@金鑫 东北师傅张克洋也不错，+1 (215) 858-1006，价格公道，人不错，比如加个门换个热水炉子换水管蛮好，但刷墙的细心活儿不够仔细
-@琳 2020年想装修时找过张师傅，人非常好！他的报价每平方英尺装修价位在240-300美元，人工占60%，地下室工程没有承包过他说不太了解。
+2020年想装修时找过张师傅，人非常好！他的报价每平方英尺装修价位在240-300美元，人工占60%，地下室工程没有承包过他说不太了解。
 
 我用过Daniel做室内隔出来一间房间，drywalling，修补以前起居室墙面的洞，起居室卧室和厨房涂漆，做的很好，非常细致，价格很实惠
 地下室装修，水电都可以做，我们加了一个厕所，一个wet bar。
@@ -1515,13 +1488,13 @@ bill电话7323221378handyman
 我们去年请了个师傅铺地板，还不错@蒲公英 
 (908) 361-2916赵师傅
 
-@蒲公英  我刚刚铺完地下室的地板。非常棒  强烈推荐 应师傅 电话： (609) 433-1413
+我刚刚铺完地下室的地板。非常棒  强烈推荐 应师傅 电话： (609) 433-1413
 
 安装木地板和地毯服务
 Ceci的微信：XL9083271333
 
 我们用过carpet centers of nj 还不错  
-732-254-2060​
+732-254-2060
 917-923-7827
 Carpet centers of New Jersey是一家中国人，他们只换地毯不清洗
 
@@ -1554,10 +1527,10 @@ William，手机是609-933-4014
 Bob 7326970557                  
 
 求问 我们要装修地下室 请的华人装修师傅需要屋主自己申请permit 我们申请了之后 有些项目被拒绝了 不知道有没有收费帮屋主申请permit的人或者公司
-@J. Bai Kevin 6093062600 你打电话问问，留voicemail把详情说说
+@J. BaiKevin 6093062600 你打电话问问，留voicemail把详情说说
 
 请问大家有做basement 结构的公司吗？我家地下室的结构柱子要换
-@建筑师_祥 Paul Pennachi是做泥土工程，质量价格都很好，(609) 203-0033
+Paul Pennachi是做泥土工程，质量价格都很好，(609) 203-0033
 
 BASEMENT                WATERPROOFING   
 Call:732-721-4900       
@@ -1596,23 +1569,23 @@ Basement Waterproofing
 (800) 865-8787 RYTECH claims@rytechinc.co Structural Drying	Water Extraction	Mold Remediation	(609) 924-9565 DANIEL JANICKVice Cell:609-917-0830
 
 求问： Sump pump alarming  system 哪里买？
-Safe Air Systems @Noelle 
+Safe Air Systems @Noelle
 这家不错。我换整个sump pump ，价格合理。做的非常专业
 推荐Safe Air. 帮我装氡气装置，sump pump .价格公道，还专业
 zoeller牌子的Sump pump比较好
 
 请问群友们有维修 sump pump 地下排水泵 的师傅推荐吗？
-@Chong Wang 着急的话我一般找Theo，响应几乎是秒回，收费不便宜也不贵。我上次的sump pump加上告警装备大概1000美金左右。
+着急的话我一般找Theo，响应几乎是秒回，收费不便宜也不贵。我上次的sump pump加上告警装备大概1000美金左右。
 1600美金
 Theo Ex Plumbing and Heating LLC2
-Phone# 609 838 1843​theoexpiumbing@gmail.com​
-Total​$1,226.00​
+Phone# 609 838 1843​theoexpiumbing@gmail.com
+Total​$1,226.00
 609 851 2401
 
 Handyman Daniel 刚帮我换了sump pump, 是我问到的最低的一家。问了几家，Fante报3600,  Theo报1200，但是要等两个星期，因为地下室淹了，等不了，找了Daniel, 他以前帮我装修过厕所，做的很快，才一千多一点。推荐
 Daniel帮我们换了全新的Sump Pump，原来的Sump Pump以及备用的Sump Pump都是以前的房东装的，备用的是电池启动的，但是功率太低，上次下大雨地下室井里面太多水第一个泵坏了，备用泵效率低，所以淹水，所有东西都飘起来了！Daniel给我换的这个不是电池启动，是通过水管压力推动第二个备用的sump pump启动，这样就不担心地下室淹水后电的sump pump坏掉。这个sump pump太先进了！
 
-@optimist_too 那为啥水总是有啊，泵不完啊？ 
+那为啥水总是有啊，泵不完啊？ 
 可能可以去室外看看水排去哪里了，或者室外水管排水有情况。水又回流去室内． 
 可能是水泵螺旋桨壳子的螺丝腐蚀脱落了  螺旋桨一直在转但是水抽不上去。 
 拆了换几个螺丝把盖子拧上就行了 
@@ -1710,7 +1683,7 @@ AirTran到每個幾樓。不是免費的22美元（已經包在NJT的票價裡�
 为服务大普林地区的居民，本群定期发送生活服务信息，全是群主在各个微信群收到的微信信息集中，完全基于个人推荐，无法保证信息真实，用前请货比三家。也欢迎各位群友发送评论和信息，及时登出反馈。群主微信号：yalichen15
 
 普林斯顿六月份新来的一位钢琴教师：王迦勒博士。毕业于莫斯科国立音乐学院，他曾是大学教授、博士生导师、国际比赛评委、五四青年奖章获得者，甘肃兰州人。他的很多学生取得了英皇考级（ABRSM）的Distinguish成绩、国际比赛的一二等奖、考取了世界多所学校的附中、本科、硕士及博士。王教授将在今年6月中旬正式移居普林斯顿，为孩子从事正规系统化的钢琴训练及音乐熏陶，帮助学生实现不同等级的目标。目前正在招生。有需要的爸爸妈妈们请及时加王教授微信（微信名：calebwang330）入群咨询。
-@普林斯顿陈老师-文书辅导 我已经开始上王迦勒老师的课了，非常优秀
+我已经开始上王迦勒老师的课了，非常优秀
 
 请问大家有附近的钢琴老师推荐吗？普林的，谢谢！
 Peter 6092131471
@@ -1760,7 +1733,7 @@ Piano Tuner Chris
 Email:Josephvincentbutler@yahoo.com
 
 家里钢琴要调音，麻烦大家有专业人士推荐的吗？多谢🙏！
-打这个电话问问，+1732 887 4297 @龍行天下 
+打这个电话问问，+1732 887 4297
 
 钢琴老师Fang-Ting Liu Piano Teacher Piano Teacher
 (609) 520-8999
@@ -1833,7 +1806,7 @@ J&A Automotive on River Road in Ewing. (Near Revere Restaurant) . Honest and kno
 Matt’s auto 1580 5th St, Ewing Township, NJ 08638 we’ve been going there for years. Great people down to earth.
 
 推荐一个car deep cleaning。honda princeton。内：100、外：100。做出来就是可以直接卖的状态。
-@Xin Honda Princeton dealership
+Honda Princeton dealership
 
 请问附近除了Costco，还有其他靠谱的Tire Shop么？ 谢谢
 大家换轮胎，是用普林斯顿靠北边在Route 206上的Mavis Discount Tire 吗？
@@ -1875,10 +1848,10 @@ They are also DMV approved.
 New Jersey Window Tint Law
 jdpower.com
 
-@Theresa Huang 换机油的店“STS”778 State Rd, Princeton, NJ 08540
+换机油的店“STS”778 State Rd, Princeton, NJ 08540
 美国
 
-@王卓 haha, 我刚刚研究过。1）BNB car wash on route one. 732-821-0100。2）(732) 803-2860 Markus. On route 27. He is very busy and booked till November
+haha, 我刚刚研究过。1）BNB car wash on route one. 732-821-0100。2）(732) 803-2860 Markus. On route 27. He is very busy and booked till November
 
 Gino’s Auto Body Shop
 4360 NJ 27
@@ -1903,7 +1876,7 @@ Auto repair shop in Edgewater Park      22+
 (609)880-9555
 609-792-6667
 Kent is our car mechanic for almost 20 yrs. Highly recommended.
-@Ryo 这位邻居有修车铺，口碑好
+这位邻居有修车铺，口碑好
 我也推荐Kent
 DAI AUTO REPAIR DOMESTIC & IMPORT609-880-9555
 戴氏
@@ -4787,12 +4760,18 @@ YWCA 是2個月大 - 6歲的樣子。
 
     `,
   },
-  //   {
-  //     title: "",
-  //     content: `
+  {
+    id: 52,
+    title: "跳蚤市场",
+    content: `
+请问附近有没有跳蚤市场 可以卖二手东西的 
+Englishtown or Columbus Farmers Market.
+请问附近有没有跳蚤市场 可以卖二手东西的 
+离这里不远Lamberville Golden Nuggets Flea Market (星期三，六，日开）。另外Lambertville, NJ和Delaware 河对面New Hope, PA有几个古董店卖挺有艺术气息的东西（绘画，家俱，收藏品等等。不便宜，确实是好东西）。
 
-  //     `
-  //   },
+今天在教会 一个朋友说可以去这里买二手儿童产品：https://mercercounty.jbfsale.com
+      `,
+  },
   //   {
   //     title: "",
   //     content: `

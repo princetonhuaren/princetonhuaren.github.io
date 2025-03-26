@@ -65,6 +65,7 @@ const Notes = () => {
               // height: "570px",
               overflow: "hidden",
               paddingBottom: "8px",
+              whiteSpace: "pre-line",
             }}
             className="card-container"
             actions={[
