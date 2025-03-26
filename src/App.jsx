@@ -6,6 +6,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Feedback from "./pages/Feedback";
 import Notes from "./pages/Notes";
+import NoteDetails from "./pages/NoteDetails";
 import { Layout, Menu } from "antd";
 import { HomeOutlined, WechatOutlined, SendOutlined } from "@ant-design/icons";
 
@@ -77,6 +78,7 @@ function App() {
       <Content>
         <HashRouter basename="/">
           <Routes>
+            <Route path="/notes/:noteId" element={<NoteDetails />}></Route>
             <Route path="/notes" element={<Notes />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route exact path="/" element={<Home />} />

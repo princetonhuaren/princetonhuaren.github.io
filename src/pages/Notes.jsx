@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Input, Card, Col, Row, Button } from "antd";
 import { notes as rawData } from "../assets/data";
+import { useNavigate } from "react-router-dom";
 // to-do:
 // add search function
 // compact mode?? click and show the whole card in a new window? or popup
 const Notes = () => {
+  const navigate = useNavigate();
   const [notes, setNotes] = useState(rawData);
   const [searchTearm, setSearchTerm] = useState("");
 
@@ -60,13 +62,18 @@ const Notes = () => {
             title={e.title}
             variant="borderless"
             style={{
-              //   height: "200px",
+              // height: "570px",
               overflow: "hidden",
               paddingBottom: "8px",
             }}
             className="card-container"
+            actions={[
+              <Button onClick={() => navigate(`/notes/${e.id}`)}>
+                Show More
+              </Button>,
+            ]}
           >
-            {e.content}
+            {e.content.substring(0, 200) + "..."}
           </Card>
         ))}
       </Row>

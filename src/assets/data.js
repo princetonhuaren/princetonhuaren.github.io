@@ -1,5 +1,6 @@
 export const notes = [
   {
+    id: 1,
     title: "理发美发",
     content: `
     
@@ -9,11 +10,9 @@ export const notes = [
 美发
 美发美容7328218883 
 
-@daisy (609) 799-6698 Meilin。在家里，Plainsboro，电话预约。男生理发和女生做头发都可。非常好，二十几年了。
+(609) 799-6698 Meilin。在家里，Plainsboro，电话预约。男生理发和女生做头发都可。非常好，二十几年了。
 
- 请问哪里有理发师推荐？谢谢
-我们家都很喜欢这家 
-May's Beauty Salon      形象      美寿      
+May's Beauty Salon 形象 美寿      
 TEL:732-821-8883 CELL:908-930-2003
 3550 Route 27,
 Kendall Park, NJ 08824
@@ -23,11 +22,11 @@ SILK CUT
 HAIR DESIGNS
 (aPlainsboro Road, Plainsboro, NJ 0853617#B Princeton Mcadows Shopping Center
 Tel:(609)750-8868(609)750-8869Open 7 Days a Week: Mon-Sat: 10am-8pm / Sun: 10am-5pm
-群主，這家剪頭髮不錯，女的找Ann,男的找Elson. 
+群主，這家剪头发不錯，女的找Ann,男的找Elson. 
 上次去silk cut 服务态度很一般 后面也没给修好
 推荐Kim, hairdresser in Silk cut, Plainsboro, 732-816-8869 已经用她5年了。 师傅是福建人，人和蔼，手艺好。
 
-今天推荐个发廊，在爱迪生，群主可以收录。雾都发廊，电话：732 777 0980。HMart对面，今天陪家人去这儿理发，女生长头发，仔仔细细理了2个小时，才35刀+小费，关键还理的超好，家人非常满意，老板理发店铺开了20年，孩子都送去上大学了，特地给这个老板向群主推荐下。
+爱迪生雾都发廊，电话：732 777 0980。HMart对面，今天陪家人去这儿理发，女生长头发，仔仔细细理了2个小时，才35刀+小费，关键还理的超好，家人非常满意，老板理发店铺开了20年，孩子都送去上大学了。
 OPEN 7 DAYS
 Mon.-Sat.: 9:30am-8:00pr
 Sun.: 9:30am-7:00p
@@ -42,9 +41,9 @@ Next to Dunkin Donuts parking in Rear
 个人意见：理发师技术最好是structure hair 的 Larry, 在Edison. 女生$60+tip. 近的韩国美女也是不错的选择，很认真，有时会花上1.5小时。女生$40+tip5 吧
 我今天带我儿子去。他们怎么收费？
 男生$30的樣子
-要事先預約喔
+要事先预约
 
-@天璇地轉 我一直找这位韩国美女剪头发，个人感觉不错，她是在自己家开的个小发廊 June (732) 470-6996 18 Dey Rd Plainsboro NJ 之前群友介紹的
+我一直找这位韩国美女剪头发，个人感觉不错，她是在自己家开的个小发廊 June (732) 470-6996 18 Dey Rd Plainsboro NJ 之前群友介紹的
 
 Fashion Hair Salon 
 2090 Nj-27 Edison NJ 08817 
@@ -67,11 +66,6 @@ https://calendly.com/serenajiang9050/serena
 7323989999
 莉莉髮廊：剪髮男25，女45～剪得蠻仔細的，我老公很喜歡，比在Edison剪便宜
 
-@天璇地轉 我一直找这位韩国美女剪头发，个人感觉不错，她是在自己家开的个小发廊 June (732) 470-6996 18 Dey Rd Plainsboro NJ 只剪一般$35-40,一般剪发给个五刀小费就可以了
-我知道男生收费$30，烫发可能分长短，染发大概100左右，一般提前两三天预约
-
-yaya 这里也可以，不约也可以直接去
-
 @Tony.L 我也去过 不错
 May's Beauty Salon
 3550 NJ-27, Kendall Park, NJ 08824 ÷E
@@ -84,7 +78,7 @@ Ann理发
 Beauty salon
 660 Plainsboro Rd # 17, Plainsboro
 Township, NJ 08536, United States
- (609) 750-8869 ·
+(609) 750-8869 ·
 
 魏大姐是退休专业理发师，曾在中国大城市开理发店20余年。尤其擅长男士女士理发，老年人染发。价格: 男士女士理发15刀，儿童理发20刀。不强制收取小费，不包括洗和吹，最好服务前洗干净头发。染发15刀，需要顾客自带染发膏。
 地址: 100 Middlesex Blvd, Plainsboro, NJ 08536
@@ -93,6 +87,7 @@ Township, NJ 08536, United States
     `,
   },
   {
+    id: 2,
     title: "驾照/危急情况处理",
     content: `
     *******大普林华人生活群信息:驾照/危急情况处理***************
@@ -109,9 +104,8 @@ https://www.nj.gov/mvc/about/manuals.htm
 
 求助万能群，国内驾照想申请美国临时驾照，请问国内驾照是要找律师翻译公证吗？不知找谁翻译好呢？
 #中国驾照翻译件，用于新泽西交通局免路考申请使用。费用和流程请看: https://aiqiang.org/nj-license-intro/    驾照照片材料和你的邮寄地址请发到 nycourtchen@gmail.com
-我姐是用这个翻译提供的驾照翻译件
 
-淘宝翻译，已经顺利换了新泽西的驾照。供参考。               美国临时驾照就不清楚了
+淘宝翻译，已经顺利换了新泽西的驾照。供参考。美国临时驾照就不清楚了
 
 国内驾照NJ换驾照，无需路考
 我没有公证驾照，没有路考，要考交规，测视力
@@ -119,20 +113,16 @@ https://www.nj.gov/mvc/about/manuals.htm
 Hertz网站上免费翻译即可，即使换驾照，DMV一样认可
 
 您好我们刚刚在3200 brunswick 拿到临时驾照 用的hertz微信翻译 ，过了笔试看到是中国驾照（给了国际驾照也不要），就直接给了路试sticker，接着就排队办驾照。全程什么也没问.
-@Jun Zhang 这个office只要是中国驾照应该就给免路试
+这个office只要是中国驾照应该就给免路试
 我在3200 Brunswick Pike, Lawrence Township, NJ 08648拿到了
-Hertz 微信翻译能不能推一下给我，谢谢@@Jessie 
-没错。用的是协程翻译
 
 @ZXL #小程序://Hertz国际租车/u8mZkABPByrzw6p
 
-撞车后
-@Sharon Zhang ： 如果那人已走了， 给对方打电话， 要Insurance info， 马上打她的insurance。 如果她不给， 说要报警， 如果她真的不给， 你马上打电话。 事出哪一township， 就打那township police
+撞车后如果那人已走了， 给对方打电话， 要Insurance info， 马上打她的insurance。 如果她不给， 说要报警， 如果她真的不给， 你马上打电话。 事出哪一township， 就打那township police
 
-遇到产品质量问题商家不退货
-@Tonyxu sorry,昨天说的是Better Business Bureau   https://www.bbb.org/
+遇到产品质量问题商家不退货昨天说的是Better Business Bureau   https://www.bbb.org/
 
-@Annie Lin (曲红） 0086-1012308，中领馆全球热线
+0086-1012308，中领馆全球热线
 
 越到歧视
 有些小事可以开始做，有需要帮忙的在群里喊一声。比如几次群里邻居朋友讲到遇到bias cases，记录事件信息，1）向州大检察官办公室报案，2）以个人向普林警局报案，3）华人协会收集整理，向警局要求加强管理事发地区。爱村学委帮着向council 警局要求认真对待，最近没有听说新事件
@@ -150,11 +140,10 @@ princetonnj.gov
 favicon.ico
 如果度假的时候家里有人来帮忙遛狗，剪草（现在应该没有了），或者扫雪，最好注明一下，留一下电话
 
-如果我们知道有孩子非法在普林斯顿上学，是否有举报的渠道？
-可以写信给laurieoneto@princetonk12.org
     `,
   },
   {
+    id: 3,
     title: "普林斯顿附近的餐厅",
     content: `
     *******大普林华人生活群信息: 普林斯顿附近的餐厅 ***************
@@ -320,6 +309,7 @@ Edgewater, NJ 07020
     `,
   },
   {
+    id: 4,
     title: "眼科医生",
     content: `
     *******大普林华人生活群信息: 眼科医生 ***************
@@ -474,6 +464,7 @@ Matossian Eye Associates +1 (609) 604-6379, Hopewell office, Rwj大楼那里但�
     `,
   },
   {
+    id: 5,
     title: "快递",
     content: `
     *******大普林华人生活群信息: 快递***************
@@ -513,6 +504,7 @@ Edison 很多，我用XZX EXPRESS INC.
     `,
   },
   {
+    id: 6,
     title: "垃圾处理",
     content: `
     *******大普林华人生活群信息：垃圾处理*****
@@ -554,6 +546,7 @@ Household items Donations in New Jersey
     `,
   },
   {
+    id: 7,
     title: "搬家和搬运",
     content: `
     
@@ -634,6 +627,7 @@ Recommend a place to donate to. They come to your house to pick up, accept many 
     `,
   },
   {
+    id: 8,
     title: "孩子体育",
     content: `
     *******大普林华人生活群信息: 孩子体育 ***************
@@ -762,6 +756,7 @@ Also a $50 starter kit
     `,
   },
   {
+    id: 9,
     title: "厨房厕所小件安装",
     content: `
     *******大普林华人生活群信息: 厨房厕所小件安装***************
@@ -878,6 +873,7 @@ phone
     `,
   },
   {
+    id: 10,
     title: "签证",
     content: `
     *******大普林华人生活群信息:签证***************
@@ -981,6 +977,7 @@ Jessica-翠宝旅游Cell9177558828很多客人问中国签证情况，到目前�
     `,
   },
   {
+    id: 11,
     title: "律师",
     content: `
     *******大普林华人生活群信息: 律师***************
@@ -1078,6 +1075,7 @@ Borrus Goldin
     `,
   },
   {
+    id: 12,
     title: "房屋装修工程/Handyman",
     content: `
     *******大普林华人生活群信息：房屋装修工程/Handyman*****
@@ -1177,6 +1175,7 @@ walterbednarz@gmail.com​​
     `,
   },
   {
+    id: 13,
     title: "骨科/理疗针灸/中医",
     content: `
     *******大普林华人生活群信息: 骨科/理疗针灸/中医 ***************
@@ -1299,6 +1298,7 @@ wang13764372308
     `,
   },
   {
+    id: 14,
     title: " 中医",
     content: `
     *******大普林华人生活群信息: 中医 ***************
@@ -1377,6 +1377,7 @@ https://m.tsemporium.com
     `,
   },
   {
+    id: 15,
     title: "房检",
     content: `
     *******大普林华人生活群信息: 房检 ***************
@@ -1431,6 +1432,7 @@ work
     `,
   },
   {
+    id: 16,
     title: "公证签证银行贷款国内汇款",
     content: `
     *******大普林华人生活群信息: 公证签证银行贷款国内汇款***************
@@ -1476,6 +1478,7 @@ David.Mcdermott@penfed.org
     `,
   },
   {
+    id: 17,
     title: "安装更换地板/地毯/地下室装修",
     content: `
     *******大普林华人生活群信息:安装更换地板/地毯/地下室装修 ***************
@@ -1525,6 +1528,7 @@ Carpet centers of New Jersey是一家中国人，他们只换地毯不清洗
     `,
   },
   {
+    id: 18,
     title: "地下室排水整修/sump pump",
     content: `
     *******大普林华人生活群信息:地下室排水整修/sump pump ***************
@@ -1618,6 +1622,7 @@ Daniel帮我们换了全新的Sump Pump，原来的Sump Pump以及备用的Sump 
     `,
   },
   {
+    id: 19,
     title: "接送",
     content: `
     *******大普林华人生活群信息: 接送***************
@@ -1698,6 +1703,7 @@ AirTran到每個幾樓。不是免費的22美元（已經包在NJT的票價裡�
     `,
   },
   {
+    id: 20,
     title: "孩子音乐钢琴",
     content: `
     *******大普林华人生活群信息: 孩子音乐钢琴***************
@@ -1771,6 +1777,7 @@ Email: info@steamworksstudio.com
     `,
   },
   {
+    id: 21,
     title: "修汽车",
     content: `
     *******大普林华人生活群信息: 修汽车***************
@@ -1939,6 +1946,7 @@ Just called last week. Interior detailing is $100 and exterior with wax is anoth
     `,
   },
   {
+    id: 22,
     title: "口腔整形医生/种牙/牙保险",
     content: `
     *******大普林华人生活群信息: 口腔整形医生/种牙/牙保险 ***************
@@ -2099,6 +2107,7 @@ Endodontics
     `,
   },
   {
+    id: 23,
     title: "电工",
     content: `
     *******大普林华人生活群信息: 电工 ***************
@@ -2224,6 +2233,7 @@ Bardachino
     `,
   },
   {
+    id: 24,
     title: "房屋里外喷涂刷漆",
     content: `
     *******大普林华人生活群信息: 房屋里外喷涂刷漆 ***************
@@ -2306,6 +2316,7 @@ East Brunswick, NJ
     `,
   },
   {
+    id: 25,
     title: "割草/庭院清理和冬天铲雪服务",
     content: `
     *******大普林华人生活群信息：割草/庭院清理和冬天铲雪服务 *****
@@ -2373,6 +2384,7 @@ Tree Chief ，800-464-0171			除杂草，一年分5-8次，每次50元左右
     `,
   },
   {
+    id: 26,
     title: "空调/Heater",
     content: `
     *******大普林华人生活群信息: 空调/Heater ***************
@@ -2557,6 +2569,7 @@ Xfinity便宜一些.对网速要求高就选Verizon
     `,
   },
   {
+    id: 27,
     title: "牙医/牙髓科医生",
     content: `
     *******大普林华人生活群信息: 牙医/牙髓科医生 ***************
@@ -2759,6 +2772,7 @@ Located in: Bridge Point
     `,
   },
   {
+    id: 28,
     title: "家庭医生和儿科家庭医生",
     content: `
     *******大普林华人生活群信息: 家庭医生和儿科家庭医生 ***************
@@ -2855,6 +2869,7 @@ Edison NJ 08817 United States
     `,
   },
   {
+    id: 29,
     title: "电器修理",
     content: `
     **********大普林华人生活群信息: 电器修理 ***************
@@ -3001,6 +3016,7 @@ Worry free program 只包你现有HVAC的零件和保养人工。当你的HVAC�
     `,
   },
   {
+    id: 30,
     title: "孩子小提琴吉他Flute二胡",
     content: `
     *******大普林华人生活群信息: 孩子小提琴吉他Flute二胡 ***************
@@ -3111,6 +3127,7 @@ www.princetonmusic.com;Online or in-person
     `,
   },
   {
+    id: 31,
     title: "会计",
     content: `
     *******大普林华人生活群信息: 会计***************
@@ -3169,6 +3186,7 @@ Ihecnanvaheecom
     `,
   },
   {
+    id: 32,
     title: "孩子综合夏令营精华",
     content: `
     *******大普林华人生活群信息: 孩子综合夏令营精华***************
@@ -3413,6 +3431,7 @@ STEAM, Lego and Mandarin camp offered by S.A.M. Singapore Math of West Windsor. 
     `,
   },
   {
+    id: 33,
     title: "网球",
     content: `
     ******大普林华人生活群信息: 网球***************
@@ -3451,6 +3470,7 @@ https://www.timeafterschool.com/index.php/Summercamp/programDetail/camp_id/324.h
     `,
   },
   {
+    id: 34,
     title: "地板/地下室整修",
     content: `
     *******大普林华人生活群信息:地板/地下室整修 ***************
@@ -3576,6 +3596,7 @@ www.rytechinc.com/central-new-jersey
     `,
   },
   {
+    id: 35,
     title: " 妇科大夫",
     content: `
     *******大普林华人生活群信息: 妇科大夫 ***************
@@ -3619,6 +3640,7 @@ Ob Gyn doctor  Dalal Kunali
     `,
   },
   {
+    id: 36,
     title: "肠胃病专科医生",
     content: `
     *******大普林华人生活群信息:肠胃病专科医生 ***************
@@ -3665,6 +3687,7 @@ QueensNY11354   FL      HING
     `,
   },
   {
+    id: 37,
     title: "修车库门",
     content: `
     大普林华人生活群信息: 修车库门 *************** 为服务大普林地区的居民，本群定期发送生活服务信息，全是群主在各个微信群收到的微 信信息集中，完全基于个人推荐，无法保证信息真实，用前请货比三家。也欢迎各位群友 发送评论和信息，及时登出反馈。群主微信号:yalichen15
@@ -3696,6 +3719,7 @@ Address
     `,
   },
   {
+    id: 38,
     title: "水管工",
     content: `
     *******大普林华人生活群信息：水管工 *****
@@ -3868,6 +3892,7 @@ N. C. Jefferson
     `,
   },
   {
+    id: 39,
     title: "杀虫害",
     content: `
     *****大普林华人生活群信息: 杀虫害 ***************
@@ -3932,6 +3957,7 @@ Tom Garvey      Rich Garvey     Matt Garvey
     `,
   },
   {
+    id: 40,
     title: "保养树和砍树",
     content: `
     *******大普林华人生活群信息:保养树和砍树 *****
@@ -4025,6 +4051,7 @@ David Wells是老板就住在普林
     `,
   },
   {
+    id: 41,
     title: "驾校",
     content: `
     *******大普林华人生活群信息: 驾校***************
@@ -4059,6 +4086,7 @@ Lennygudoto@princetonk12.org
     `,
   },
   {
+    id: 42,
     title: "健身",
     content: `
     *******大普林华人生活群信息: 健身***************
@@ -4077,6 +4105,7 @@ YMCA健身也不错，城里，免费停车，有游泳池，虽然因为既定�
     `,
   },
   {
+    id: 43,
     title: "房屋车保险和来美国看病",
     content: `
     
@@ -4168,6 +4197,7 @@ www.insubuy.com自己上去买就好 家里老人来探亲，需要买旅游保�
     `,
   },
   {
+    id: 44,
     title: "皮肤科专科医生",
     content: `
     *******大普林华人生活群信息: 皮肤科专科医生 ***************
@@ -4199,6 +4229,7 @@ KESSEL DERMATOLOGY
     `,
   },
   {
+    id: 45,
     title: "露台阳台车道",
     content: `
     *******大普林华人生活群信息: 露台阳台车道 ***************
@@ -4257,6 +4288,7 @@ CaNam: 修补和Seal 旧的烂掉的车道，把裂缝都填了，做了新的Co
     `,
   },
   {
+    id: 46,
     title: "修理换屋顶",
     content: `
     *******大普林华人生活群信息: 修理换屋顶 ***************
@@ -4322,6 +4354,7 @@ https://genosiding.com/
     `,
   },
   {
+    id: 47,
     title: "打扫卫生",
     content: `
     *******大普林华人生活群信息: 打扫卫生************************
@@ -4429,6 +4462,7 @@ cleaninghernandez.com
     `,
   },
   {
+    id: 48,
     title: "兽医/理发/宠物",
     content: `
     
@@ -4508,6 +4542,7 @@ Dr. Mark Smith
     `,
   },
   {
+    id: 49,
     title: " 烟囱和Gutter清扫和修理",
     content: `
     *******大普林华人生活群信息: 烟囱和Gutter清扫和修理 ***************
@@ -4675,6 +4710,7 @@ Bowden's in Hamilton is great. They installed one gas fireplace for me many year
     `,
   },
   {
+    id: 50,
     title: "洗地毯",
     content: `
     *******大普林华人生活群信息: 洗地毯************************
@@ -4711,6 +4747,7 @@ Jack Wang Carpet Cleaning
     `,
   },
   {
+    id: 51,
     title: "学校选择",
     content: `
     *******大普林华人生活群信息: 学校选择************************
