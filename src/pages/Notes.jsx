@@ -43,6 +43,7 @@ const Notes = () => {
           style={{ width: "200px" }}
           value={searchTearm}
           onChange={onSearchChange}
+          onPressEnter={onSearchButtonClick}
         ></Input>
         <Button size={"small"} onClick={onSearchButtonClick}>
           Search
