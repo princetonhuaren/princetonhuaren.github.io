@@ -22,7 +22,7 @@ const Home = () => {
         rel="noopener noreferrer"
       >
         <DiscordOutlined />
-        普林华人社区 https://discord.gg/WsPvkchz
+        普林华人社区 https://discord.gg/chsp8pVP
       </a>
     </div>
   );
