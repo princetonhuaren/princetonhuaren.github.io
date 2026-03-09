@@ -1,102 +1,92 @@
-import React from "react";
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Feedback from "./pages/Feedback";
 import Notes from "./pages/Notes";
 import NoteDetails from "./pages/NoteDetails";
-import { Layout, Menu } from "antd";
-import { HomeOutlined, WechatOutlined, SendOutlined } from "@ant-design/icons";
+import Community from "./pages/Community";
+import About from "./pages/About";
+import CategoryPage from "./pages/CategoryPage";
+import PostDetail from "./pages/PostDetail";
+import { Layout } from "antd";
 
-// const footerStyle = {
-//   textAlign: "center",
-//   color: "#fff",
-//   backgroundColor: "#4096ff",
-//   marginTop: "auto",
-// };
+const navItems = [
+  { label: "首页",    key: "home",      href: "/"           },
+  { label: "生活",    key: "life",      href: "#/life"      },
+  { label: "教育",    key: "education", href: "#/education" },
+  { label: "住房",    key: "housing",   href: "#/housing"   },
+  { label: "服务",    key: "services",  href: "#/services"  },
+  { label: "社区",    key: "community", href: "#/community" },
+  { label: "全部资料", key: "notes",    href: "#/notes"     },
+  { label: "关于",    key: "about",     href: "#/about"     },
+];
 
-const headerStyle = {
-  backgroundColor: "white",
-  display: "flex",
-};
+function getActiveKey() {
+  const hash = window.location.hash.replace("#/", "").split("/")[0];
+  if (!hash) return "home";
+  return hash;
+}
 
 function App() {
-  // const [count, setCount] = useState(0)
-  const { Header, Footer, Sider, Content } = Layout;
+  const { Content } = Layout;
+  const [activeKey, setActiveKey] = useState(getActiveKey);
 
-  const items = [
-    {
-      label: <a href="/">主页</a>,
-      key: "home",
-      icon: <HomeOutlined />,
-      // href: "/",
-    },
-    {
-      label: <a href="#/notes">信息分享</a>,
-      key: "news",
-      icon: <WechatOutlined />,
-      // href: "/notes",
-    },
-    {
-      label: <a href="#/feedback">用户反馈</a>,
-      key: "feedback",
-      icon: <SendOutlined />,
-      // href: "/notes",
-    },
-  ];
+  useEffect(() => {
+    const onHashChange = () => setActiveKey(getActiveKey());
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
   return (
-    <Layout
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        flexGrow: "1",
-      }}
-    >
-      <Header style={headerStyle}>
-        <div
-          style={{
-            fontSize: "26px",
-            fontWeight: "700",
-          }}
-        >
-          Princeton华人
-        </div>
-        <Menu
-          items={items}
-          mode="horizontal"
-          style={{ marginLeft: "2rem" }}
-          // onClick={onClick}
-        />
-        {/* <div>
-          <Link>主页</Link>
-          <Link>群信息</Link>
-        </div> */}
-      </Header>
-      <Content>
+    <Layout style={{ minHeight: "100vh" }}>
+      <header className="app-header">
+        <a href="/" className="app-logo">
+          <span className="app-logo-en">PrincetonHuaren</span>
+          <span className="app-logo-cn">普林斯顿华人</span>
+        </a>
+        <nav className="app-nav">
+          {navItems.map((item) => (
+            <a
+              key={item.key}
+              href={item.href}
+              className={`app-nav-item${activeKey === item.key ? " active" : ""}`}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </header>
+
+      <Content style={{ flex: 1 }}>
         <HashRouter basename="/">
           <Routes>
-            <Route path="/notes/:noteId" element={<NoteDetails />}></Route>
-            <Route path="/notes" element={<Notes />} />
-            <Route path="/feedback" element={<Feedback />} />
-            <Route exact path="/" element={<Home />} />
-
-            {/* <Route element={<AuthLayout />}>
-    <Route path="login" element={<Login />} />
-    <Route path="register" element={<Register />} />
-  </Route>
-
-  <Route path="concerts">
-    <Route index element={<ConcertsHome />} />
-    <Route path=":city" element={<City />} />
-    <Route path="trending" element={<Trending />} />
-  </Route> */}
+            <Route path="/"              element={<Home />} />
+            <Route path="/life"          element={<CategoryPage category="life"      title="生活" />} />
+            <Route path="/education"     element={<CategoryPage category="education" title="教育" />} />
+            <Route path="/housing"       element={<CategoryPage category="housing"   title="住房" />} />
+            <Route path="/services"      element={<CategoryPage category="services"  title="服务" />} />
+            <Route path="/community"     element={<Community />} />
+            <Route path="/about"         element={<About />} />
+            <Route path="/notes"         element={<Notes />} />
+            <Route path="/notes/:noteId" element={<NoteDetails />} />
+            <Route path="/feedback"      element={<Feedback />} />
+            <Route path="/:category/:postId" element={<PostDetail />} />
           </Routes>
         </HashRouter>
       </Content>
-      {/* <Footer style={footerStyle}>This is the footer</Footer> */}
+
+      <footer className="app-footer">
+        <div className="app-footer-content">
+          <div className="app-footer-brand">PrincetonHuaren</div>
+          <div className="app-footer-desc">Princeton 华人生活信息分享网站</div>
+          <div className="app-footer-links">
+            <a href="#/about">关于本站</a>
+            <a href="#/feedback">联系我们</a>
+          </div>
+          <div className="app-footer-copy">© 2025 PrincetonHuaren · 内容基于社区成员推荐，仅供参考</div>
+        </div>
+      </footer>
     </Layout>
   );
 }

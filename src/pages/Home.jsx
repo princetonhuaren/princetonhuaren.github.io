@@ -1,29 +1,166 @@
 import React from "react";
-import { Image } from "antd";
-import { DiscordOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
+import { WechatOutlined, DiscordOutlined } from "@ant-design/icons";
+import { Tooltip } from "antd";
+import { getLatestPosts, getFeaturedPosts } from "../assets/posts";
+import { categoryLabels, categoryColors } from "../assets/categories";
+import qrGeneral from "../assets/wechat-general.jpg";
+import qrParents from "../assets/wechat-parents.jpg";
+import qrHousing from "../assets/wechat-housing.jpg";
+
+const quickLinks = [
+  { name: "Daycare",  emoji: "🧒", href: "/education" },
+  { name: "餐馆",    emoji: "🍜", href: "/life"      },
+  { name: "租房",    emoji: "🏠", href: "/housing"   },
+  { name: "医生",    emoji: "🏥", href: "/services"  },
+  { name: "公园",    emoji: "🌿", href: "/life"      },
+  { name: "微信群",  emoji: "💬", href: "/community" },
+];
 
 const Home = () => {
-  return (
-    <div style={{ padding: "16px 16px" }}>
-      <Image
-        src={"princeton-school-zone.jpg"}
-        fallback={
-          "https://tapinto-production.s3.amazonaws.com/uploads/articles/12/best_crop_8209fda018108e5c4a72_12-7-24_Princeton_Future-Housing-Map.jpg?id=5628518"
-        }
-        preview={false}
-      />
-      <p style={{ fontSize: "16px", lineHeight: "24px", padding: "16px" }}>
-        这个网站是一个专为普林斯顿学区华人社区提供信息分享的平台。我们致力于为广大华人家庭提供最新的学区资讯、教育资源、社区活动等相关信息，帮助大家更好地融入和了解当地的生活与文化。无论是关于学校政策、课外活动，还是学区的各种实用信息，我们都力求为您提供准确、及时的内容。此外，网站还为社区成员提供了一个交流互动的空间，让大家能够分享经验、解答疑问、互相支持。
-      </p>
+  const navigate = useNavigate();
+  const latestPosts = getLatestPosts(5);
+  const featuredPosts = getFeaturedPosts().slice(0, 6);
 
-      <a
-        href="https://discord.gg/D6zDx8UTMK"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <DiscordOutlined />
-        普林华人社区 https://discord.gg/D6zDx8UTMK
-      </a>
+  return (
+    <div>
+      {/* ── Hero ── */}
+      <div className="home-hero">
+        <h1 className="home-hero-title">Princeton 华人生活指南</h1>
+        <p className="home-hero-subtitle">
+          分享普林斯顿地区的生活信息<br />
+          衣食住行、教育医疗、社区资源
+        </p>
+        <a href="#/life" className="home-hero-btn">浏览最新文章 →</a>
+      </div>
+
+      {/* ── Quick Links ── */}
+      <div className="home-section">
+        <h2 className="home-section-title">快速入口</h2>
+        <div className="home-quick-grid">
+          {quickLinks.map((link) => (
+            <div
+              key={link.name}
+              className="home-quick-card"
+              onClick={() => navigate(link.href)}
+            >
+              <span className="home-quick-emoji">{link.emoji}</span>
+              <span className="home-quick-name">{link.name}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ── Latest Posts + Popular Guides ── */}
+      <div className="home-content-row">
+        {/* Latest Posts */}
+        <div className="home-posts-col">
+          <div className="home-col-header">
+            <h2 className="home-section-title" style={{ margin: 0 }}>最新文章</h2>
+            <a href="#/life" className="home-view-all">查看全部 →</a>
+          </div>
+          <div className="home-posts-list">
+            {latestPosts.map((post) => {
+              const { color, bg } = categoryColors[post.category] || {};
+              return (
+                <div
+                  key={post.id}
+                  className="home-post-item"
+                  onClick={() => navigate(`/${post.category}/${post.id}`)}
+                >
+                  <span className="home-post-tag" style={{ color, background: bg }}>
+                    {categoryLabels[post.category]}
+                  </span>
+                  <div className="home-post-title">{post.title}</div>
+                  <div className="home-post-footer">
+                    <span className="home-post-excerpt">{post.summary}</span>
+                    <span className="home-post-date">{post.published}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Popular Guides */}
+        <div className="home-guides-col">
+          <h2 className="home-section-title">热门指南</h2>
+          <div className="home-guides-list">
+            {featuredPosts.map((post) => {
+              const { color, bg } = categoryColors[post.category] || {};
+              return (
+                <div
+                  key={post.id}
+                  className="home-guide-item"
+                  onClick={() => navigate(`/${post.category}/${post.id}`)}
+                >
+                  <span className="home-guide-tag" style={{ color, background: bg }}>
+                    {categoryLabels[post.category]}
+                  </span>
+                  <span className="home-guide-title">{post.title}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* ── Community ── */}
+      <div className="home-community-wrapper">
+        <div className="home-section">
+          <h2 className="home-section-title">社区</h2>
+          <div className="home-community-grid">
+            {[
+              { emoji: "🛋️", name: "二手交易",   desc: "家具、电器、婴儿用品",   coming: true  },
+              { emoji: "🌱", name: "种苗交换",   desc: "春季种苗、蔬菜秧苗分享", coming: true  },
+              { emoji: "📅", name: "社区活动",   desc: "聚餐、球赛、节日活动",   coming: true  },
+              { emoji: "💬", name: "加入社区",   desc: "扫码进微信群", onClick: () => navigate("/community") },
+            ].map((item) => (
+              <Tooltip key={item.name} title={item.coming ? "即将上线，敬请期待" : null}>
+                <div
+                  className="home-community-item"
+                  onClick={item.onClick}
+                  style={{ cursor: item.onClick ? "pointer" : "not-allowed", opacity: item.coming ? 0.55 : 1 }}
+                >
+                  <span className="home-community-emoji">{item.emoji}</span>
+                  <div>
+                    <div className="home-community-name">{item.name}</div>
+                    <div className="home-community-desc">{item.desc}</div>
+                  </div>
+                </div>
+              </Tooltip>
+            ))}
+          </div>
+
+          <div className="home-qr-grid" style={{ marginTop: "24px" }}>
+            {[
+              { img: qrGeneral, name: "综合交流" },
+              { img: qrParents, name: "家长圈" },
+              { img: qrHousing, name: "家居服务" },
+            ].map((group) => (
+              <div key={group.name} className="home-qr-card">
+                <img src={group.img} alt={group.name} style={{ width: "120px", height: "120px", borderRadius: "8px", objectFit: "cover" }} />
+                <div className="home-qr-label">
+                  <WechatOutlined style={{ color: "#07c160", marginRight: "4px" }} />
+                  {group.name}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ marginTop: "24px" }}>
+            <a
+              href="https://discord.gg/D6zDx8UTMK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="home-discord-link"
+            >
+              <DiscordOutlined />
+              <span>加入 Discord 社区</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
