@@ -11,6 +11,7 @@ import CategoryPage from "./pages/CategoryPage";
 import PostDetail from "./pages/PostDetail";
 import PrincetonSchoolsPage from "./pages/PrincetonSchoolsPage";
 import PrincetonFoodPage from "./pages/PrincetonFoodPage";
+import PrincetonKidsPage from "./pages/PrincetonKidsPage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -75,6 +76,7 @@ function App() {
             <Route path="/feedback"      element={<Feedback />} />
             <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
             <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
+            <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
             <Route path="/:category/:postId" element={<PostDetail />} />
           </Routes>
         </HashRouter>

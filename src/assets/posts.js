@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-kids-places",
+    title: "普林斯顿遛娃地图：室内外亲子场所全整理",
+    summary: "整理了普林斯顿周边室内外亲子好去处，含公园草坪、室内游乐场、农场等，附地图标注和实用提示。",
+    category: "life",
+    tags: ["遛娃", "亲子", "公园", "室内游乐", "Princeton"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-10",
+    updated: "2026-03-10",
+    featured: true,
+    readingTime: 5,
+  },
+  {
     id: "bmw-water-damage-warning",
     title: "三天拖车两次：BMW 后备箱进水烧控制单元，X1/X3/X5 车主注意",
     summary: "后备箱撒了一两加仑水，以为擦干了没事，结果油箱控制单元烧毁，维修费 $2,800。这是 BMW X1/X3/X5 的已知通病。",

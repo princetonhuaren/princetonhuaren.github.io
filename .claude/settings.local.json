@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npx vite build --mode production)",
       "WebSearch",
-      "WebFetch(domain:princetonhuaren.com)"
+      "WebFetch(domain:princetonhuaren.com)",
+      "Bash(npm run deploy)"
     ]
   }
 }
