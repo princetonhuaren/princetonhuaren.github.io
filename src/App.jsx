@@ -9,6 +9,7 @@ import Community from "./pages/Community";
 import About from "./pages/About";
 import CategoryPage from "./pages/CategoryPage";
 import PostDetail from "./pages/PostDetail";
+import PrincetonSchoolsPage from "./pages/PrincetonSchoolsPage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -71,6 +72,7 @@ function App() {
             <Route path="/notes"         element={<Notes />} />
             <Route path="/notes/:noteId" element={<NoteDetails />} />
             <Route path="/feedback"      element={<Feedback />} />
+            <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
             <Route path="/:category/:postId" element={<PostDetail />} />
           </Routes>
         </HashRouter>
