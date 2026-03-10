@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-chinese-school",
+    title: "普林斯顿中文学校指南：华夏普兰斯堡、华夏蒙哥马利、英华，哪所更适合你？",
+    summary: "普林斯顿周边三所中文学校详细对比——华夏普兰斯堡（周日MCCC）、华夏蒙哥马利（周六Skillman）、英华（周日Princeton），含上课时间、学费、教材和选校建议。",
+    category: "education",
+    tags: ["中文学校", "华夏", "英华", "教育", "Princeton"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-10",
+    updated: "2026-03-10",
+    featured: true,
+    readingTime: 6,
+  },
+  {
     id: "princeton-kids-places",
     title: "普林斯顿遛娃地图：室内外亲子场所全整理",
     summary: "整理了普林斯顿周边室内外亲子好去处，含公园草坪、室内游乐场、农场等，附地图标注和实用提示。",
