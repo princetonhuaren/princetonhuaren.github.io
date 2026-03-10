@@ -28,7 +28,7 @@ const Notes = () => {
     <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "32px 24px" }}>
       {/* Header */}
       <h1 style={{ fontSize: "1.5rem", fontWeight: "800", marginBottom: "4px" }}>
-        全部资料
+        社区笔记
       </h1>
       <p style={{ color: "#888", fontSize: "0.9rem", marginBottom: "24px" }}>
         共 {rawData.length} 个分类 · 来自普林斯顿华人社区

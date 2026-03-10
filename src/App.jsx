@@ -22,7 +22,7 @@ const navItems = [
   { label: "住房",    key: "housing",   href: "#/housing"   },
   { label: "服务",    key: "services",  href: "#/services"  },
   { label: "社区",    key: "community", href: "#/community" },
-  { label: "全部资料", key: "notes",    href: "#/notes"     },
+  { label: "社区笔记", key: "notes",    href: "#/notes"     },
   { label: "关于",    key: "about",     href: "#/about"     },
 ];
 
