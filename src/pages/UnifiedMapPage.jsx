@@ -278,10 +278,10 @@ const UnifiedMapPage = () => {
           );
         })}
 
-        {/* 医疗/服务占位提示 */}
-        {(!activeGroup || activeGroup === "medical" || activeGroup === "services") && (
+        {/* 服务占位提示 */}
+        {(!activeGroup || activeGroup === "services") && (
           <div style={{ background: "#fafafa", border: "1px dashed #ddd", borderRadius: 10, padding: "20px 24px", color: "#bbb", fontSize: "0.88rem", textAlign: "center", marginTop: 8 }}>
-            🏥 医疗 · 🔧 服务 等分类正在整理中，欢迎在微信群提供推荐！
+            🔧 服务（装修、车行等）分类正在整理中，欢迎在微信群提供推荐！
           </div>
         )}
       </div>
