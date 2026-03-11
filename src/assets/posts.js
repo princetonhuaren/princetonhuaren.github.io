@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-goddard-school",
+    title: "Goddard School Princeton 亲历评测：从 Infant 到 Pre-K 的完整经历",
+    summary: "两个孩子都在这里上过，从一岁多的 Infant 班到 Pre-K，几年亲历评测。含夏令营详细日程、游泳课、Road Trip、After School 接送合作等实用信息。",
+    category: "education",
+    tags: ["daycare", "早教", "日托", "夏令营", "Princeton", "幼儿园", "Goddard"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-11",
+    updated: "2026-03-11",
+    featured: true,
+    readingTime: 5,
+  },
+  {
     id: "princeton-chinese-school",
     title: "普林斯顿中文学校指南：华夏普兰斯堡、华夏蒙哥马利、英华，哪所更适合你？",
     summary: "普林斯顿周边三所中文学校详细对比——华夏普兰斯堡（周日MCCC）、华夏蒙哥马利（周六Skillman）、英华（周日Princeton），含上课时间、学费、教材和选校建议。",
