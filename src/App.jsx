@@ -13,10 +13,12 @@ import PrincetonSchoolsPage from "./pages/PrincetonSchoolsPage";
 import PrincetonFoodPage from "./pages/PrincetonFoodPage";
 import PrincetonKidsPage from "./pages/PrincetonKidsPage";
 import PrincetonChineseSchoolPage from "./pages/PrincetonChineseSchoolPage";
+import UnifiedMapPage from "./pages/UnifiedMapPage";
 import { Layout } from "antd";
 
 const navItems = [
   { label: "首页",    key: "home",      href: "/"           },
+  { label: "地图",    key: "map",       href: "#/map"       },
   { label: "生活",    key: "life",      href: "#/life"      },
   { label: "教育",    key: "education", href: "#/education" },
   { label: "住房",    key: "housing",   href: "#/housing"   },
@@ -75,6 +77,7 @@ function App() {
             <Route path="/notes"         element={<Notes />} />
             <Route path="/notes/:noteId" element={<NoteDetails />} />
             <Route path="/feedback"      element={<Feedback />} />
+            <Route path="/map" element={<UnifiedMapPage />} />
             <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
             <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
             <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
