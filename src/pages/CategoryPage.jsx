@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { getPostsByCategory } from "../assets/posts";
 import { categoryColors, categoryMap } from "../assets/categories";
 import { notes as allNotes } from "../assets/data";
@@ -46,6 +46,33 @@ const CategoryPage = ({ category, title }) => {
           共 {totalCount} 项内容
         </p>
       </div>
+
+      {/* ── 生活专属工具入口 ── */}
+      {category === "life" && (
+        <div style={{ marginBottom: 32 }}>
+          <div style={{ fontSize: "0.8rem", fontWeight: 700, color: "#aaa", letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: 12 }}>
+            实用工具
+          </div>
+          <Link to="/life/menu" style={{ textDecoration: "none" }}>
+            <div style={{
+              display: "flex", alignItems: "center", gap: 16,
+              padding: "16px 20px", borderRadius: 12,
+              border: "1.5px solid #f39c1233", background: "#fffbf4",
+              cursor: "pointer", transition: "box-shadow 0.15s",
+            }}
+              onMouseEnter={e => e.currentTarget.style.boxShadow = "0 2px 12px #f39c1220"}
+              onMouseLeave={e => e.currentTarget.style.boxShadow = "none"}
+            >
+              <span style={{ fontSize: 32 }}>🍳</span>
+              <div>
+                <div style={{ fontWeight: 700, fontSize: 15, color: "#1a1a1a", marginBottom: 2 }}>今天吃什么？</div>
+                <div style={{ fontSize: 13, color: "#888" }}>按季节整理的家常菜单，快手菜 / 汤粥 / 懒人方案 / 周末大餐</div>
+              </div>
+              <ArrowRightOutlined style={{ marginLeft: "auto", color: "#f39c12" }} />
+            </div>
+          </Link>
+        </div>
+      )}
 
       {/* ── 文章（posts.js）── */}
       {posts.length > 0 && (

@@ -14,6 +14,7 @@ import PrincetonFoodPage from "./pages/PrincetonFoodPage";
 import PrincetonKidsPage from "./pages/PrincetonKidsPage";
 import PrincetonChineseSchoolPage from "./pages/PrincetonChineseSchoolPage";
 import UnifiedMapPage from "./pages/UnifiedMapPage";
+import MenuPage from "./pages/MenuPage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -78,6 +79,7 @@ function App() {
             <Route path="/notes/:noteId" element={<NoteDetails />} />
             <Route path="/feedback"      element={<Feedback />} />
             <Route path="/map" element={<UnifiedMapPage />} />
+            <Route path="/life/menu" element={<MenuPage />} />
             <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
             <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
             <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
