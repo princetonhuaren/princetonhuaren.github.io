@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-charter-school",
+    title: "Princeton Charter School 全攻略：免费公立特许学校，K-8，抽签入学",
+    summary: "普林斯顿唯一的公立特许学校，K-8年级，完全免费含午餐校车。小班制、掌握式教学，每年抽签入学。含申请流程、优先条件、课程介绍。",
+    category: "education",
+    tags: ["Charter School", "小学", "初中", "教育", "Princeton", "抽签", "公立学校"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-12",
+    updated: "2026-03-12",
+    featured: true,
+    readingTime: 4,
+  },
+  {
     id: "west-windsor-farmers-market",
     title: "West Windsor Farmers Market：普林斯顿版「赶大集」",
     summary: "Princeton Junction 火车站旁的露天集市，每周六举办。本地农场、手工食品、偶有乐队表演，带娃逛逛治愈一整天。含时间、摊位介绍和实用贴士。",
