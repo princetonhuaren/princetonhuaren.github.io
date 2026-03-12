@@ -26,6 +26,15 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-to-nyc",
+    title: "从普林斯顿去纽约，怎么去最划算？",
+    summary: "自驾 vs 开车去火车站坐 NJ Transit，时间、费用、停车全攻略。带孩子推荐自驾，轻装逛街首选火车，周末来回约 $30–35。",
+    category: "life",
+    tags: ["交通", "纽约", "NJ Transit", "火车", "自驾", "出行"],
+    location: "Princeton NJ",
+    date: "2026-03-12",
+  },
+  {
     id: "princeton-neighborhoods",
     title: "普林斯顿各区长什么样？分区地图 + 详细介绍",
     summary: "普林斯顿 10+ 分区深度解析：西区老宅、高研院爱因斯坦区、华人聚集的 Riverside、梅花鹿出没的 Ettl Farm……内嵌 Leaflet 互动分区地图，感谢地产专家 Beatrice Bloom 提供资料。",
