@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-neighborhoods",
+    title: "普林斯顿各区长什么样？分区地图 + 详细介绍",
+    summary: "普林斯顿 10+ 分区深度解析：西区老宅、高研院爱因斯坦区、华人聚集的 Riverside、梅花鹿出没的 Ettl Farm……内嵌 Leaflet 互动分区地图，感谢地产专家 Beatrice Bloom 提供资料。",
+    category: "housing",
+    tags: ["选房", "分区", "Princeton", "住房", "社区", "地产"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-12",
+    updated: "2026-03-12",
+    featured: true,
+    readingTime: 6,
+  },
+  {
     id: "princeton-charter-school",
     title: "Princeton Charter School 全攻略：免费公立特许学校，K-8，抽签入学",
     summary: "普林斯顿唯一的公立特许学校，K-8年级，完全免费含午餐校车。小班制、掌握式教学，每年抽签入学。含申请流程、优先条件、课程介绍。",
