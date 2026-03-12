@@ -1639,7 +1639,7 @@ Princeton 镇内有一条世界上最短的通勤铁路支线，俗称 **Dinky**
 \r
 ### 到了 Penn Station 之后\r
 \r
-Penn Station 在曼哈顿 34 街，直连地铁 A/C/E、1/2/3、B/D/F/M 线，基本全岛通达。纽约地铁已全面支持银行卡和手机（Apple Pay / Google Pay）直接刷，闸机直接感应，无需购买 MetroCard，单次 $2.90。\r
+Penn Station 在曼哈顿 34 街，直连地铁 A/C/E、1/2/3、B/D/F/M 线，基本全岛通达。纽约地铁已全面支持银行卡和手机（Apple Pay / Google Pay）直接刷，闸机直接感应，无需购买 MetroCard，单次 $3。\r
 \r
 ---\r
 \r
