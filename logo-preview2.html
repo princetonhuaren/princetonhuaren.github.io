@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Logo 预览 v2 - 方案四延伸</title>
+<style>
+  body { background: #f0ede8; font-family: sans-serif; padding: 40px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 36px; align-items: flex-start; }
+  .card { background: white; border-radius: 12px; padding: 32px 28px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; gap: 20px; }
+  .card h3 { margin: 0; color: #888; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+  .dark { background: #111; }
+  .dark h3 { color: #555; }
+  .row { display: flex; gap: 24px; align-items: center; }
+</style>
+</head>
+<body>
+<h2 style="font-family:sans-serif;color:#333;margin-bottom:32px">方案四延伸 — 艺术字 + 竖排</h2>
+<div class="grid">
+
+  <!-- V1: 竖排印章风 -->
+  <div class="card">
+    <h3>V1 · 竖排印章</h3>
+    <svg width="90" height="200" viewBox="0 0 90 200" xmlns="http://www.w3.org/2000/svg">
+      <rect x="4" y="4" width="82" height="192" rx="6" fill="none" stroke="#FF6600" stroke-width="3"/>
+      <rect x="10" y="10" width="70" height="180" rx="4" fill="none" stroke="#FF6600" stroke-width="1" opacity="0.3"/>
+      <text x="45" y="60" font-family="'Noto Serif SC', 'STSong', serif" font-size="36" font-weight="900" fill="#FF6600" text-anchor="middle">普</text>
+      <text x="45" y="106" font-family="'Noto Serif SC', 'STSong', serif" font-size="36" font-weight="900" fill="#FF6600" text-anchor="middle">林</text>
+      <text x="45" y="152" font-family="'Noto Serif SC', 'STSong', serif" font-size="36" font-weight="900" fill="#FF6600" text-anchor="middle">华</text>
+      <text x="45" y="188" font-family="'Noto Serif SC', 'STSong', serif" font-size="20" font-weight="400" fill="#FF6600" text-anchor="middle">人</text>
+    </svg>
+  </div>
+
+  <!-- V2: 竖排 + 英文横排 -->
+  <div class="card">
+    <h3>V2 · 竖中横英</h3>
+    <svg width="180" height="200" viewBox="0 0 180 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- 竖线分隔 -->
+      <line x1="78" y1="20" x2="78" y2="180" stroke="#FF6600" stroke-width="1.5" opacity="0.4"/>
+      <!-- 竖排中文 -->
+      <text x="42" y="68" font-family="serif" font-size="40" font-weight="900" fill="#222" text-anchor="middle">普</text>
+      <text x="42" y="118" font-family="serif" font-size="40" font-weight="900" fill="#222" text-anchor="middle">林</text>
+      <text x="42" y="168" font-family="serif" font-size="40" font-weight="900" fill="#FF6600" text-anchor="middle">华</text>
+      <!-- 右边英文 -->
+      <text x="90" y="80" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#FF6600" letter-spacing="2">PRINCETON</text>
+      <text x="90" y="100" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#333" letter-spacing="2">CHINESE</text>
+      <text x="90" y="120" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#333" letter-spacing="2">COMMUNITY</text>
+      <text x="42" y="195" font-family="sans-serif" font-size="9" fill="#aaa" text-anchor="middle" letter-spacing="1">人</text>
+    </svg>
+  </div>
+
+  <!-- V3: 毛笔笔触风 -->
+  <div class="card">
+    <h3>V3 · 毛笔笔触</h3>
+    <svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="roughen">
+          <feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+      </defs>
+      <!-- 笔触横线 -->
+      <rect x="8" y="72" width="184" height="6" rx="3" fill="#FF6600" opacity="0.15" filter="url(#roughen)"/>
+      <text x="10" y="66" font-family="'Noto Serif SC', 'STSong', 'SimSun', serif" font-size="52" font-weight="900" fill="#1a1a1a" filter="url(#roughen)">普林</text>
+      <text x="118" y="66" font-family="'Noto Serif SC', 'STSong', 'SimSun', serif" font-size="52" font-weight="300" fill="#FF6600" filter="url(#roughen)">华人</text>
+      <text x="10" y="90" font-family="sans-serif" font-size="10" fill="#aaa" letter-spacing="4">P R I N C E T O N  ·  C H I N E S E  ·  C O M M U N I T Y</text>
+    </svg>
+  </div>
+
+  <!-- V4: 竖排 现代极简 -->
+  <div class="card">
+    <h3>V4 · 竖排极简</h3>
+    <svg width="60" height="220" viewBox="0 0 60 220" xmlns="http://www.w3.org/2000/svg">
+      <text x="30" y="56" font-family="serif" font-size="44" font-weight="900" fill="#FF6600" text-anchor="middle">普</text>
+      <text x="30" y="106" font-family="serif" font-size="44" font-weight="900" fill="#333" text-anchor="middle">林</text>
+      <text x="30" y="156" font-family="serif" font-size="44" font-weight="900" fill="#333" text-anchor="middle">华</text>
+      <text x="30" y="206" font-family="serif" font-size="44" font-weight="900" fill="#333" text-anchor="middle">人</text>
+      <rect x="4" y="2" width="4" height="216" rx="2" fill="#FF6600"/>
+    </svg>
+  </div>
+
+  <!-- V5: 横排 方案四精修 + 朱砂印 -->
+  <div class="card">
+    <h3>V5 · 横排精修 + 红印</h3>
+    <svg width="260" height="90" viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg">
+      <text x="8" y="68" font-family="'Noto Serif SC','STSong',serif" font-size="58" font-weight="900" fill="#222">普林</text>
+      <text x="126" y="68" font-family="'Noto Serif SC','STSong',serif" font-size="58" font-weight="200" fill="#555">华人</text>
+      <!-- 朱砂印 -->
+      <rect x="218" y="6" width="38" height="38" rx="4" fill="#CC2200"/>
+      <text x="237" y="32" font-family="serif" font-size="22" font-weight="900" fill="white" text-anchor="middle">社</text>
+      <!-- 下划线 -->
+      <rect x="8" y="74" width="246" height="3" rx="1.5" fill="#FF6600"/>
+      <text x="8" y="88" font-family="sans-serif" font-size="10" fill="#bbb" letter-spacing="3">PRINCETON CHINESE COMMUNITY</text>
+    </svg>
+  </div>
+
+  <!-- V6: 竖排 + 外框 现代感 -->
+  <div class="card">
+    <h3>V6 · 竖排现代框</h3>
+    <svg width="110" height="240" viewBox="0 0 110 240" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="2" width="106" height="236" rx="12" fill="#FF6600"/>
+      <text x="55" y="68" font-family="serif" font-size="44" font-weight="900" fill="white" text-anchor="middle">普</text>
+      <text x="55" y="118" font-family="serif" font-size="44" font-weight="900" fill="white" text-anchor="middle">林</text>
+      <text x="55" y="168" font-family="serif" font-size="44" font-weight="900" fill="white" text-anchor="middle">华</text>
+      <text x="55" y="218" font-family="serif" font-size="44" font-weight="900" fill="white" text-anchor="middle">人</text>
+    </svg>
+  </div>
+
+  <!-- V7: 横排 粗细对比强 -->
+  <div class="card">
+    <h3>V7 · 黑白强对比</h3>
+    <svg width="280" height="100" viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg">
+      <rect width="280" height="100" rx="8" fill="#111"/>
+      <text x="16" y="72" font-family="serif" font-size="62" font-weight="900" fill="white">普林</text>
+      <text x="146" y="72" font-family="serif" font-size="62" font-weight="900" fill="#FF6600">华人</text>
+      <text x="16" y="90" font-family="sans-serif" font-size="9" fill="#555" letter-spacing="4">PRINCETON  CHINESE  COMMUNITY</text>
+    </svg>
+    <svg width="280" height="100" viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg">
+      <text x="16" y="72" font-family="serif" font-size="62" font-weight="900" fill="#111">普林</text>
+      <text x="146" y="72" font-family="serif" font-size="62" font-weight="900" fill="#FF6600">华人</text>
+      <text x="16" y="90" font-family="sans-serif" font-size="9" fill="#bbb" letter-spacing="4">PRINCETON  CHINESE  COMMUNITY</text>
+    </svg>
+  </div>
+
+  <!-- V8: 竖排带拼音装饰 -->
+  <div class="card">
+    <h3>V8 · 竖排 + 拼音</h3>
+    <svg width="130" height="220" viewBox="0 0 130 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- 拼音 -->
+      <text x="18" y="20" font-family="sans-serif" font-size="8" fill="#FF6600" letter-spacing="1" opacity="0.7">Pǔlín Huárén</text>
+      <!-- 主字 -->
+      <text x="20" y="70" font-family="serif" font-size="50" font-weight="900" fill="#222">普</text>
+      <text x="20" y="120" font-family="serif" font-size="50" font-weight="900" fill="#222">林</text>
+      <text x="20" y="170" font-family="serif" font-size="50" font-weight="900" fill="#FF6600">华</text>
+      <text x="20" y="215" font-family="serif" font-size="50" font-weight="200" fill="#FF6600">人</text>
+      <!-- 右侧竖线 -->
+      <line x1="118" y1="10" x2="118" y2="210" stroke="#FF6600" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+</div>
+</body>
+</html>

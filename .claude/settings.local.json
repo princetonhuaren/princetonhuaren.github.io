@@ -4,7 +4,35 @@
       "Bash(npx vite build --mode production)",
       "WebSearch",
       "WebFetch(domain:princetonhuaren.com)",
-      "Bash(npm run deploy)"
+      "Bash(npm run deploy)",
+      "WebFetch(domain:www.hxpcs.org)",
+      "WebFetch(domain:www.yinghua.org)",
+      "WebFetch(domain:www.hxcsmg.org)",
+      "WebFetch(domain:hxcsmg.org)",
+      "WebFetch(domain:www.goddardschool.com)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:www.stultsfarm.com)",
+      "WebFetch(domain:www.leeorchardgarden.com)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:www.leeturkeyfarm.com)",
+      "WebFetch(domain:www.sunrisefarmnj.com)",
+      "WebFetch(domain:hulufarm.com)",
+      "WebFetch(domain:visitnjfarms.org)",
+      "WebFetch(domain:www.yelp.com)",
+      "WebFetch(domain:www.hulufarm.com)",
+      "WebFetch(domain:www.ourfarmsusa.com)",
+      "WebFetch(domain:njparcels.com)",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "WebFetch(domain:www.farmzenda.com)",
+      "WebFetch(domain:www.westwindsorfarmersmarket.org)",
+      "WebFetch(domain:princetoncharter.org)",
+      "WebFetch(domain:www.realestate-princeton.com)",
+      "WebFetch(domain:overpass-api.de)",
+      "WebFetch(domain:data-mercer.opendata.arcgis.com)",
+      "WebFetch(domain:www.redfin.com)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\andre\\princetonhuaren.github.io\\src\\content\\posts"
     ]
   }
 }
