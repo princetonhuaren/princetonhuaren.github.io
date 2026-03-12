@@ -26,6 +26,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "west-windsor-farmers-market",
+    title: "West Windsor Farmers Market：普林斯顿版「赶大集」",
+    summary: "Princeton Junction 火车站旁的露天集市，每周六举办。本地农场、手工食品、偶有乐队表演，带娃逛逛治愈一整天。含时间、摊位介绍和实用贴士。",
+    category: "life",
+    tags: ["集市", "农场", "周末", "遛娃", "West Windsor", "本地生活"],
+    location: "West Windsor NJ",
+    author: "Andrew",
+    published: "2026-03-12",
+    updated: "2026-03-12",
+    featured: true,
+    readingTime: 3,
+  },
+  {
     id: "princeton-goddard-school",
     title: "Goddard School Princeton 亲历评测：从 Infant 到 Pre-K 的完整经历",
     summary: "两个孩子都在这里上过，从一岁多的 Infant 班到 Pre-K，几年亲历评测。含夏令营详细日程、游泳课、Road Trip、After School 接送合作等实用信息。",
