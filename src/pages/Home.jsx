@@ -113,7 +113,7 @@ const Home = () => {
             {[
               { emoji: "🛋️", name: "二手交易",   desc: "家具、电器、婴儿用品",   coming: true  },
               { emoji: "🌱", name: "种苗交换",   desc: "春季种苗、蔬菜秧苗分享", coming: true  },
-              { emoji: "📅", name: "社区活动",   desc: "聚餐、球赛、节日活动",   coming: true  },
+              { emoji: "📅", name: "社区活动",   desc: "聚餐、球赛、节日活动",   onClick: () => navigate("/events") },
               { emoji: "💬", name: "加入社区",   desc: "扫码进微信群", onClick: () => navigate("/community") },
             ].map((item) => (
               <Tooltip key={item.name} title={item.coming ? "即将上线，敬请期待" : null}>

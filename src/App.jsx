@@ -17,6 +17,7 @@ import UnifiedMapPage from "./pages/UnifiedMapPage";
 import MenuPage from "./pages/MenuPage";
 import NeighborhoodMapPage from "./pages/NeighborhoodMapPage";
 import PrincetonNeighborhoodsPage from "./pages/PrincetonNeighborhoodsPage";
+import EventsPage from "./pages/EventsPage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -98,6 +99,7 @@ function AppContent() {
           <Route path="/life/menu"     element={<MenuPage />} />
           <Route path="/housing/neighborhoods" element={<NeighborhoodMapPage />} />
           <Route path="/housing/princeton-neighborhoods" element={<PrincetonNeighborhoodsPage />} />
+          <Route path="/events" element={<EventsPage />} />
           <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
           <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
           <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
