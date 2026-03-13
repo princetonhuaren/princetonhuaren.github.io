@@ -109,7 +109,7 @@ const CategoryPage = ({ category, title }) => {
                 <div style={{ display: "flex", gap: "12px", color: "#bbb", fontSize: "0.8rem", alignItems: "center" }}>
                   <span>
                     <CalendarOutlined style={{ marginRight: "4px" }} />
-                    {post.published}
+                    {post.updated && post.updated !== post.published ? `更新 ${post.updated}` : post.published}
                   </span>
                   {post.readingTime && (
                     <span>

@@ -112,7 +112,7 @@ export const posts = [
     location: "Princeton NJ",
     author: "Andrew",
     published: "2026-03-10",
-    updated: "2026-03-10",
+    updated: "2026-03-13",
     featured: true,
     readingTime: 5,
   },
@@ -304,9 +304,11 @@ export const posts = [
 
 export const getPostContent = (id) => contentMap[id] ?? "";
 
+const effectiveDate = (p) => new Date(p.updated || p.published);
+
 export const getLatestPosts = (n = 5) =>
   [...posts]
-    .sort((a, b) => new Date(b.published) - new Date(a.published))
+    .sort((a, b) => effectiveDate(b) - effectiveDate(a))
     .slice(0, n);
 
 export const getFeaturedPosts = () =>
@@ -315,14 +317,14 @@ export const getFeaturedPosts = () =>
 export const getPostsByCategory = (category) =>
   [...posts]
     .filter((p) => p.category === category)
-    .sort((a, b) => new Date(b.published) - new Date(a.published));
+    .sort((a, b) => effectiveDate(b) - effectiveDate(a));
 
 export const getPostById = (id) =>
   posts.find((p) => p.id === id);
 
 export const getAdjacentPosts = (id) => {
   const sorted = [...posts].sort(
-    (a, b) => new Date(b.published) - new Date(a.published)
+    (a, b) => effectiveDate(b) - effectiveDate(a)
   );
   const idx = sorted.findIndex((p) => p.id === id);
   return {

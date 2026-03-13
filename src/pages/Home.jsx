@@ -74,7 +74,7 @@ const Home = () => {
                   <div className="home-post-title">{post.title}</div>
                   <div className="home-post-footer">
                     <span className="home-post-excerpt">{post.summary}</span>
-                    <span className="home-post-date">{post.published}</span>
+                    <span className="home-post-date">{post.updated && post.updated !== post.published ? `更新 ${post.updated}` : post.published}</span>
                   </div>
                 </div>
               );

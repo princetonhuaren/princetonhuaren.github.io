@@ -106,6 +106,17 @@ const places = [
     hours: "周一-周四 12pm - 9pm， 周五-周日 09am - 09pm",
     website: "https://www.prinfac.com/",
   },
+  {
+    name: "Barnes & Noble – Market Fair",
+    category: "indoor",
+    type: "书店 / Story Time",
+    address: "3535 US-1, Princeton, NJ 08540",
+    lat: 40.3155,
+    lng: -74.6599,
+    note: "大型书店，儿童区宽敞。每周六上午有免费 Story Time，适合 2–6 岁小朋友，建议提前查官网确认时间。",
+    hours: "周一–周六 9am–10pm，周日 10am–9pm",
+    website: "https://stores.barnesandnoble.com/store/2288",
+  },
   // {
   //   name: "Scene 75 Entertainment Center",
   //   category: "indoor",
@@ -244,6 +255,9 @@ const PrincetonKidsPage = () => {
             <CalendarOutlined style={{ marginRight: 4 }} />
             {post.published}
           </span>
+          {post.updated && post.updated !== post.published && (
+            <span style={{ color: "#bbb" }}>最后更新：{post.updated}</span>
+          )}
           <span>
             <ClockCircleOutlined style={{ marginRight: 4 }} />
             {post.readingTime} 分钟阅读

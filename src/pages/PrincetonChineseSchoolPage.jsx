@@ -93,6 +93,9 @@ const PrincetonChineseSchoolPage = () => {
             <CalendarOutlined style={{ marginRight: 4 }} />
             {post.published}
           </span>
+          {post.updated && post.updated !== post.published && (
+            <span style={{ color: "#bbb" }}>最后更新：{post.updated}</span>
+          )}
           <span>
             <ClockCircleOutlined style={{ marginRight: 4 }} />
             {post.readingTime} 分钟阅读

@@ -212,6 +212,9 @@ const PrincetonSchoolsPage = () => {
         <div style={{ display: "flex", gap: 16, color: "#999", fontSize: "0.85rem", marginBottom: 8, flexWrap: "wrap", alignItems: "center" }}>
           <span><UserOutlined style={{ marginRight: 4 }} />{post.author}</span>
           <span><CalendarOutlined style={{ marginRight: 4 }} />{post.published}</span>
+          {post.updated && post.updated !== post.published && (
+            <span style={{ color: "#bbb" }}>最后更新：{post.updated}</span>
+          )}
           <span><ClockCircleOutlined style={{ marginRight: 4 }} />15 分钟阅读</span>
         </div>
       )}

@@ -18,6 +18,8 @@ function makeLabelIcon(name, color) {
   });
 }
 import { neighborhoods } from "../assets/neighborhoodData";
+import { getPostById } from "../assets/posts";
+import { CalendarOutlined, UserOutlined, ClockCircleOutlined } from "@ant-design/icons";
 // Princeton 市界，GeoJSON LineString [lng,lat] 转换为 Leaflet [lat,lng]
 const PRINCETON_BOUNDARY = [
   [-74.722179,40.375216],[-74.684243,40.30496],[-74.679354,40.308206],
@@ -112,12 +114,23 @@ export default function PrincetonNeighborhoodsPage() {
   const [selected, setSelected] = useState(null);
   const [hovered, setHovered] = useState(null);
   const active = selected ? neighborhoods.find((n) => n.id === selected) : null;
+  const post = getPostById("princeton-neighborhoods");
 
   return (
     <div style={{ maxWidth: 860, margin: "0 auto", padding: "24px 16px" }}>
       <h1 style={{ fontSize: 22, marginBottom: 4 }}>
         普林斯顿各区长什么样？分区地图 + 详细介绍
       </h1>
+      {post && (
+        <div style={{ display: "flex", gap: 16, color: "#999", fontSize: "0.85rem", marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
+          <span><UserOutlined style={{ marginRight: 4 }} />{post.author}</span>
+          <span><CalendarOutlined style={{ marginRight: 4 }} />{post.published}</span>
+          {post.updated && post.updated !== post.published && (
+            <span style={{ color: "#bbb" }}>最后更新：{post.updated}</span>
+          )}
+          <span><ClockCircleOutlined style={{ marginRight: 4 }} />{post.readingTime} 分钟阅读</span>
+        </div>
+      )}
       <p style={{ color: "#888", fontSize: 13, marginBottom: 20 }}>
         普林小镇常住居民 3 万出头，普林斯顿大学师生占居民总数约 30%。从镇中心向四周辐射，各分区风格迥异。
         点击地图上的分区查看简介。感谢普林斯顿地产专家{" "}
