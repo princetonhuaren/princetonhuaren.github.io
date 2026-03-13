@@ -40,9 +40,13 @@ function getActiveKey() {
 function App() {
   const { Content } = Layout;
   const [activeKey, setActiveKey] = useState(getActiveKey);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const onHashChange = () => setActiveKey(getActiveKey());
+    const onHashChange = () => {
+      setActiveKey(getActiveKey());
+      setMenuOpen(false);
+    };
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
@@ -65,7 +69,28 @@ function App() {
             </a>
           ))}
         </nav>
+        <button
+          className="app-hamburger"
+          onClick={() => setMenuOpen((o) => !o)}
+          aria-label="菜单"
+        >
+          <span className={`app-hamburger-icon${menuOpen ? " open" : ""}`} />
+        </button>
       </header>
+      {menuOpen && (
+        <div className="app-mobile-menu">
+          {navItems.map((item) => (
+            <a
+              key={item.key}
+              href={item.href}
+              className={`app-mobile-menu-item${activeKey === item.key ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      )}
 
       <Content style={{ flex: 1 }}>
         <HashRouter basename="/">

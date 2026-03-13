@@ -81,15 +81,7 @@ const PostDetail = () => {
       </div>
 
       {/* Title */}
-      <h1
-        style={{
-          fontSize: "1.8rem",
-          fontWeight: "800",
-          lineHeight: "1.3",
-          marginBottom: "16px",
-          color: "#1a1a1a",
-        }}
-      >
+      <h1 className="post-title">
         {post.title}
       </h1>
 
@@ -164,43 +156,26 @@ const PostDetail = () => {
       )}
 
       {/* Prev / Next */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          gap: "16px",
-          marginTop: "32px",
-          paddingTop: "24px",
-          borderTop: "1px solid #f0f0f0",
-        }}
-      >
-        <div style={{ flex: 1 }}>
+      <div className="post-adjacent">
+        <div className="post-adjacent-prev">
           {prev && (
             <div
               onClick={() => navigate(`/${prev.category}/${prev.id}`)}
               style={{ cursor: "pointer" }}
             >
-              <div style={{ fontSize: "0.78rem", color: "#aaa", marginBottom: "4px" }}>
-                ← 上一篇
-              </div>
-              <div style={{ fontWeight: "600", color: "#333", fontSize: "0.9rem" }}>
-                {prev.title}
-              </div>
+              <div style={{ fontSize: "0.78rem", color: "#aaa", marginBottom: "4px" }}>← 上一篇</div>
+              <div style={{ fontWeight: "600", color: "#333", fontSize: "0.9rem" }}>{prev.title}</div>
             </div>
           )}
         </div>
-        <div style={{ flex: 1, textAlign: "right" }}>
+        <div className="post-adjacent-next">
           {next && (
             <div
               onClick={() => navigate(`/${next.category}/${next.id}`)}
               style={{ cursor: "pointer" }}
             >
-              <div style={{ fontSize: "0.78rem", color: "#aaa", marginBottom: "4px" }}>
-                下一篇 →
-              </div>
-              <div style={{ fontWeight: "600", color: "#333", fontSize: "0.9rem" }}>
-                {next.title}
-              </div>
+              <div style={{ fontSize: "0.78rem", color: "#aaa", marginBottom: "4px" }}>下一篇 →</div>
+              <div style={{ fontWeight: "600", color: "#333", fontSize: "0.9rem" }}>{next.title}</div>
             </div>
           )}
         </div>

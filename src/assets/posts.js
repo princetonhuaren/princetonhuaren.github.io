@@ -32,7 +32,11 @@ export const posts = [
     category: "life",
     tags: ["交通", "纽约", "NJ Transit", "火车", "自驾", "出行"],
     location: "Princeton NJ",
-    date: "2026-03-12",
+    author: "Andrew",
+    published: "2026-03-12",
+    updated: "2026-03-12",
+    readingTime: 4,
+    featured: true,
   },
   {
     id: "princeton-neighborhoods",
