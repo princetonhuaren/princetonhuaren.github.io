@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { DiscordOutlined, WechatOutlined } from "@ant-design/icons";
 
 const About = () => {
@@ -34,9 +35,9 @@ const About = () => {
           <DiscordOutlined />
           <span>Discord 社区</span>
         </a>
-        <a href="/feedback" style={{ color: "#c0392b", fontWeight: "600" }}>
+        <Link to="/feedback" style={{ color: "#c0392b", fontWeight: "600" }}>
           💬 留言反馈
-        </a>
+        </Link>
       </div>
 
       <div style={{ marginTop: "40px", paddingTop: "24px", borderTop: "1px solid #f0f0f0", color: "#999", fontSize: "0.85rem" }}>

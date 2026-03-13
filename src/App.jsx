@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Feedback from "./pages/Feedback";
 import Notes from "./pages/Notes";
@@ -31,42 +31,33 @@ const navItems = [
   { label: "关于",    key: "about",     href: "/about"      },
 ];
 
-function getActiveKey() {
-  const path = window.location.pathname.replace(/^\//, "").split("/")[0];
-  if (!path) return "home";
-  return path;
-}
-
-function App() {
+function AppContent() {
   const { Content } = Layout;
-  const [activeKey, setActiveKey] = useState(getActiveKey);
+  const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const activeKey = location.pathname.replace(/^\//, "").split("/")[0] || "home";
+
   useEffect(() => {
-    const onNav = () => {
-      setActiveKey(getActiveKey());
-      setMenuOpen(false);
-    };
-    window.addEventListener("popstate", onNav);
-    return () => window.removeEventListener("popstate", onNav);
-  }, []);
+    setMenuOpen(false);
+  }, [location.pathname]);
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
       <header className="app-header">
-        <a href="/" className="app-logo">
+        <Link to="/" className="app-logo">
           <span className="app-logo-en">PrincetonHuaren</span>
           <span className="app-logo-cn">普林斯顿华人</span>
-        </a>
+        </Link>
         <nav className="app-nav">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.key}
-              href={item.href}
+              to={item.href}
               className={`app-nav-item${activeKey === item.key ? " active" : ""}`}
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
         <button
@@ -80,42 +71,39 @@ function App() {
       {menuOpen && (
         <div className="app-mobile-menu">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.key}
-              href={item.href}
+              to={item.href}
               className={`app-mobile-menu-item${activeKey === item.key ? " active" : ""}`}
-              onClick={() => setMenuOpen(false)}
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       )}
 
       <Content style={{ flex: 1 }}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/"              element={<Home />} />
-            <Route path="/life"          element={<CategoryPage category="life"      title="生活" />} />
-            <Route path="/education"     element={<CategoryPage category="education" title="教育" />} />
-            <Route path="/housing"       element={<CategoryPage category="housing"   title="住房" />} />
-            <Route path="/services"      element={<CategoryPage category="services"  title="服务" />} />
-            <Route path="/community"     element={<Community />} />
-            <Route path="/about"         element={<About />} />
-            <Route path="/notes"         element={<Notes />} />
-            <Route path="/notes/:noteId" element={<NoteDetails />} />
-            <Route path="/feedback"      element={<Feedback />} />
-            <Route path="/map" element={<UnifiedMapPage />} />
-            <Route path="/life/menu" element={<MenuPage />} />
-            <Route path="/housing/neighborhoods" element={<NeighborhoodMapPage />} />
-            <Route path="/housing/princeton-neighborhoods" element={<PrincetonNeighborhoodsPage />} />
-            <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
-            <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
-            <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
-            <Route path="/education/princeton-chinese-school" element={<PrincetonChineseSchoolPage />} />
-            <Route path="/:category/:postId" element={<PostDetail />} />
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/"              element={<Home />} />
+          <Route path="/life"          element={<CategoryPage category="life"      title="生活" />} />
+          <Route path="/education"     element={<CategoryPage category="education" title="教育" />} />
+          <Route path="/housing"       element={<CategoryPage category="housing"   title="住房" />} />
+          <Route path="/services"      element={<CategoryPage category="services"  title="服务" />} />
+          <Route path="/community"     element={<Community />} />
+          <Route path="/about"         element={<About />} />
+          <Route path="/notes"         element={<Notes />} />
+          <Route path="/notes/:noteId" element={<NoteDetails />} />
+          <Route path="/feedback"      element={<Feedback />} />
+          <Route path="/map"           element={<UnifiedMapPage />} />
+          <Route path="/life/menu"     element={<MenuPage />} />
+          <Route path="/housing/neighborhoods" element={<NeighborhoodMapPage />} />
+          <Route path="/housing/princeton-neighborhoods" element={<PrincetonNeighborhoodsPage />} />
+          <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
+          <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
+          <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
+          <Route path="/education/princeton-chinese-school" element={<PrincetonChineseSchoolPage />} />
+          <Route path="/:category/:postId" element={<PostDetail />} />
+        </Routes>
       </Content>
 
       <footer className="app-footer">
@@ -123,13 +111,21 @@ function App() {
           <div className="app-footer-brand">PrincetonHuaren</div>
           <div className="app-footer-desc">Princeton 华人生活信息分享网站</div>
           <div className="app-footer-links">
-            <a href="/about">关于本站</a>
-            <a href="/feedback">联系我们</a>
+            <Link to="/about">关于本站</Link>
+            <Link to="/feedback">联系我们</Link>
           </div>
           <div className="app-footer-copy">© 2025 PrincetonHuaren · 内容基于社区成员推荐，仅供参考</div>
         </div>
       </footer>
     </Layout>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
   );
 }
 

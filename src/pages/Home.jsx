@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { WechatOutlined, DiscordOutlined } from "@ant-design/icons";
 import { Tooltip } from "antd";
 import { getLatestPosts, getFeaturedPosts } from "../assets/posts";
@@ -31,7 +31,7 @@ const Home = () => {
           分享普林斯顿地区的生活信息<br />
           衣食住行、教育医疗、社区资源
         </p>
-        <a href="/life" className="home-hero-btn">浏览最新文章 →</a>
+        <Link to="/life" className="home-hero-btn">浏览最新文章 →</Link>
       </div>
 
       {/* ── Quick Links ── */}
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="home-posts-col">
           <div className="home-col-header">
             <h2 className="home-section-title" style={{ margin: 0 }}>最新文章</h2>
-            <a href="/life" className="home-view-all">查看全部 →</a>
+            <Link to="/life" className="home-view-all">查看全部 →</Link>
           </div>
           <div className="home-posts-list">
             {latestPosts.map((post) => {
