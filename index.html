@@ -9,6 +9,13 @@
       name="google-site-verification"
       content="vBsvjoROjLpJuqHYeRsx70YeFF6Ew1sDDqe9LD_s_7Y"
     />
+    <script>
+      // Restore path from GitHub Pages 404 redirect
+      (function() {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) window.history.replaceState(null, null, decodeURIComponent(p));
+      })();
+    </script>
     <script type="text/javascript">
       (window.heapReadyCb = window.heapReadyCb || []),
         (window.heap = window.heap || []),

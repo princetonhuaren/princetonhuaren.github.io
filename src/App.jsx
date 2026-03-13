@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Feedback from "./pages/Feedback";
 import Notes from "./pages/Notes";
@@ -21,20 +21,20 @@ import { Layout } from "antd";
 
 const navItems = [
   { label: "首页",    key: "home",      href: "/"           },
-  { label: "地图",    key: "map",       href: "#/map"       },
-  { label: "生活",    key: "life",      href: "#/life"      },
-  { label: "教育",    key: "education", href: "#/education" },
-  { label: "住房",    key: "housing",   href: "#/housing"   },
-  { label: "服务",    key: "services",  href: "#/services"  },
-  { label: "社区",    key: "community", href: "#/community" },
-  { label: "社区笔记", key: "notes",    href: "#/notes"     },
-  { label: "关于",    key: "about",     href: "#/about"     },
+  { label: "地图",    key: "map",       href: "/map"        },
+  { label: "生活",    key: "life",      href: "/life"       },
+  { label: "教育",    key: "education", href: "/education"  },
+  { label: "住房",    key: "housing",   href: "/housing"    },
+  { label: "服务",    key: "services",  href: "/services"   },
+  { label: "社区",    key: "community", href: "/community"  },
+  { label: "社区笔记", key: "notes",    href: "/notes"      },
+  { label: "关于",    key: "about",     href: "/about"      },
 ];
 
 function getActiveKey() {
-  const hash = window.location.hash.replace("#/", "").split("/")[0];
-  if (!hash) return "home";
-  return hash;
+  const path = window.location.pathname.replace(/^\//, "").split("/")[0];
+  if (!path) return "home";
+  return path;
 }
 
 function App() {
@@ -43,12 +43,12 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const onHashChange = () => {
+    const onNav = () => {
       setActiveKey(getActiveKey());
       setMenuOpen(false);
     };
-    window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
+    window.addEventListener("popstate", onNav);
+    return () => window.removeEventListener("popstate", onNav);
   }, []);
 
   return (
@@ -93,7 +93,7 @@ function App() {
       )}
 
       <Content style={{ flex: 1 }}>
-        <HashRouter basename="/">
+        <BrowserRouter>
           <Routes>
             <Route path="/"              element={<Home />} />
             <Route path="/life"          element={<CategoryPage category="life"      title="生活" />} />
@@ -115,7 +115,7 @@ function App() {
             <Route path="/education/princeton-chinese-school" element={<PrincetonChineseSchoolPage />} />
             <Route path="/:category/:postId" element={<PostDetail />} />
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </Content>
 
       <footer className="app-footer">
@@ -123,8 +123,8 @@ function App() {
           <div className="app-footer-brand">PrincetonHuaren</div>
           <div className="app-footer-desc">Princeton 华人生活信息分享网站</div>
           <div className="app-footer-links">
-            <a href="#/about">关于本站</a>
-            <a href="#/feedback">联系我们</a>
+            <a href="/about">关于本站</a>
+            <a href="/feedback">联系我们</a>
           </div>
           <div className="app-footer-copy">© 2025 PrincetonHuaren · 内容基于社区成员推荐，仅供参考</div>
         </div>

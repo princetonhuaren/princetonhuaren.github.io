@@ -34,7 +34,7 @@ const About = () => {
           <DiscordOutlined />
           <span>Discord 社区</span>
         </a>
-        <a href="#/feedback" style={{ color: "#c0392b", fontWeight: "600" }}>
+        <a href="/feedback" style={{ color: "#c0392b", fontWeight: "600" }}>
           💬 留言反馈
         </a>
       </div>
