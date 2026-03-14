@@ -8,7 +8,7 @@ import qrHousing from "../assets/wechat-housing.jpg";
 const communityItems = [
   { emoji: "🛋️", name: "二手交易", desc: "家具、电器、婴儿用品等" },
   { emoji: "🌱", name: "种苗交换", desc: "春季种苗、蔬菜秧苗分享" },
-  { emoji: "📅", name: "社区活动", desc: "聚餐、球赛、节日活动" },
+  { emoji: "📅", name: "社区活动", desc: "聚餐、球赛、节日活动", link: "/events" },
   { emoji: "💬", name: "微信群", desc: "加入本地华人群组" },
 ];
 
@@ -25,6 +25,7 @@ const Community = () => {
         {communityItems.map((item) => (
           <div
             key={item.name}
+            onClick={() => item.link && navigate(item.link)}
             style={{
               background: "#fafafa",
               border: "1px solid #f0f0f0",
@@ -33,6 +34,7 @@ const Community = () => {
               display: "flex",
               gap: "12px",
               alignItems: "flex-start",
+              cursor: item.link ? "pointer" : "default",
             }}
           >
             <span style={{ fontSize: "28px" }}>{item.emoji}</span>
