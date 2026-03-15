@@ -172,6 +172,16 @@
 - 最近校区：耶鲁大学（6–12年级）、康奈尔大学（6–8年级）、布林茅尔学院（1–8年级）
 - 网站：[summerdiscovery.com](https://www.summerdiscovery.com/programs/sig/institute-for-the-gifted)
 
+**PRISMS Summer STEM Camp**（普林斯顿国际学校）
+- 地址：19 Lambert Drive, Princeton
+- 电话：+1 609-454-5587
+- 网站：[prismsus.org](https://www.prismsus.org)
+- 年龄：6–8年级（rising）
+- 时间：**2026年6月29日 – 7月10日**（工作日）
+- 费用：$2,000
+- 内容：4门课任选——TinkerTech（火箭/机器人）、数学与艺术、AI与游戏设计、生物创新实验
+- 特点：小班教学，可使用专业实验室，8:30am–4:00pm
+
 **Lawrenceville Summer Scholars**
 - 联系：lvss@lawrenceville.org
 - 网站：[summerscholars.lawrenceville.org](https://summerscholars.lawrenceville.org)
