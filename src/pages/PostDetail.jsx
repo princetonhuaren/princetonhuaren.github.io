@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkBreaks from "remark-breaks";
+import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 import { Tag } from "antd";
 import {
   ClockCircleOutlined,
@@ -16,6 +18,13 @@ const PostDetail = () => {
   const { postId } = useParams();
   const navigate = useNavigate();
   const post = getPostById(postId);
+  const [showTop, setShowTop] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShowTop(window.scrollY > 400);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   if (!post) {
     return (
@@ -132,7 +141,7 @@ const PostDetail = () => {
 
       {/* Content */}
       <div className="note-content">
-        <ReactMarkdown remarkPlugins={[remarkBreaks]}>{content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm]} rehypePlugins={[rehypeSlug]}>{content}</ReactMarkdown>
       </div>
 
       {/* Tags */}
@@ -180,6 +189,31 @@ const PostDetail = () => {
           )}
         </div>
       </div>
+
+      {/* 返回顶部按钮 */}
+      {showTop && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          style={{
+            position: "fixed",
+            bottom: 32,
+            right: 32,
+            width: 44,
+            height: 44,
+            borderRadius: "50%",
+            background: "#1a1a1a",
+            color: "white",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "18px",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
+            zIndex: 999,
+          }}
+          title="返回顶部"
+        >
+          ↑
+        </button>
+      )}
     </div>
   );
 };

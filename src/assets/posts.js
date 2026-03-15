@@ -9,10 +9,7 @@
 // ============================================================
 
 // 批量加载所有文章的 Markdown 内容（Vite 构建时处理）
-const markdownModules = import.meta.glob(
-  "../content/posts/**/index.md",
-  { as: "raw", eager: true }
-);
+const markdownModules = import.meta.glob("../content/posts/**/index.md", { as: "raw", eager: true });
 
 // 将文件路径转换为 post id 的内容映射
 // 路径格式：../content/posts/<id>/index.md
@@ -20,7 +17,7 @@ const contentMap = Object.fromEntries(
   Object.entries(markdownModules).map(([path, content]) => {
     const id = path.split("/").at(-2);
     return [id, content];
-  })
+  }),
 );
 
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
@@ -248,16 +245,16 @@ export const posts = [
   },
   {
     id: "princeton-summer-camp",
-    title: "孩子暑期夏令营完整指南",
-    summary: "汇总普林斯顿地区各类夏令营项目，含费用、报名时间和社区经验。",
+    title: "普林斯顿孩子暑期夏令营完整指南",
+    summary: "汇总普林斯顿周边40+夏令营，含综合日营、艺术音乐、STEM学术、学前小龄等分类，附地址电话和社区推荐。",
     category: "education",
-    tags: ["夏令营", "孩子", "暑假"],
+    tags: ["夏令营", "孩子", "暑假", "亲子"],
     location: "Princeton NJ",
     author: "Andrew",
     published: "2026-02-20",
-    updated: "2026-02-20",
+    updated: "2026-03-15",
     featured: true,
-    readingTime: 8,
+    readingTime: 10,
   },
   {
     id: "princeton-medical-guide",
@@ -306,26 +303,16 @@ export const getPostContent = (id) => contentMap[id] ?? "";
 
 const effectiveDate = (p) => new Date(p.updated || p.published);
 
-export const getLatestPosts = (n = 5) =>
-  [...posts]
-    .sort((a, b) => effectiveDate(b) - effectiveDate(a))
-    .slice(0, n);
+export const getLatestPosts = (n = 5) => [...posts].sort((a, b) => effectiveDate(b) - effectiveDate(a)).slice(0, n);
 
-export const getFeaturedPosts = () =>
-  posts.filter((p) => p.featured);
+export const getFeaturedPosts = () => posts.filter((p) => p.featured);
 
-export const getPostsByCategory = (category) =>
-  [...posts]
-    .filter((p) => p.category === category)
-    .sort((a, b) => effectiveDate(b) - effectiveDate(a));
+export const getPostsByCategory = (category) => [...posts].filter((p) => p.category === category).sort((a, b) => effectiveDate(b) - effectiveDate(a));
 
-export const getPostById = (id) =>
-  posts.find((p) => p.id === id);
+export const getPostById = (id) => posts.find((p) => p.id === id);
 
 export const getAdjacentPosts = (id) => {
-  const sorted = [...posts].sort(
-    (a, b) => effectiveDate(b) - effectiveDate(a)
-  );
+  const sorted = [...posts].sort((a, b) => effectiveDate(b) - effectiveDate(a));
   const idx = sorted.findIndex((p) => p.id === id);
   return {
     prev: idx > 0 ? sorted[idx - 1] : null,

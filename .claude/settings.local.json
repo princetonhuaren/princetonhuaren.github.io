@@ -29,7 +29,8 @@
       "WebFetch(domain:www.realestate-princeton.com)",
       "WebFetch(domain:overpass-api.de)",
       "WebFetch(domain:data-mercer.opendata.arcgis.com)",
-      "WebFetch(domain:www.redfin.com)"
+      "WebFetch(domain:www.redfin.com)",
+      "Bash(node -e \"const {notes} = require\\(''./src/assets/data.js''\\); const n = notes[31]; console.log\\(n.content\\);\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\andre\\princetonhuaren.github.io\\src\\content\\posts"

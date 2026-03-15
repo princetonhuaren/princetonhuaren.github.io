@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { notes } from "../assets/data";
 import ReactMarkdown from "react-markdown";
 import remarkBreaks from "remark-breaks";
+import remarkGfm from "remark-gfm";
 import { ArrowLeftOutlined, TeamOutlined } from "@ant-design/icons";
 
 const NoteDetails = () => {
@@ -60,7 +61,7 @@ const NoteDetails = () => {
 
       {/* Content */}
       <div className="note-content">
-        <ReactMarkdown remarkPlugins={[remarkBreaks]}>{note.content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm]}>{note.content}</ReactMarkdown>
       </div>
     </div>
   );
