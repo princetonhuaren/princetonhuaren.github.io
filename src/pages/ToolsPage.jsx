@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const tools = [
   {
@@ -61,6 +62,18 @@ const tools = [
         desc: "每周六 9am–1pm，Princeton Junction 火车站旁，5月至11月",
         link: "https://www.westwindsorfarmersmarket.org/",
         tag: "集市",
+      },
+    ],
+  },
+  {
+    category: "🏠 房产",
+    items: [
+      {
+        title: "房贷月供计算器",
+        desc: "输入贷款金额和利率，计算 10/15/30 年月供及完整分期明细",
+        link: "/tools/mortgage",
+        tag: "计算器",
+        internal: true,
       },
     ],
   },
@@ -139,6 +152,7 @@ const tagColor = {
   "Princeton":      { bg: "#fdf2f2", color: "#c0392b" },
   "集市":           { bg: "#eafaf1", color: "#27ae60" },
   "MVC":            { bg: "#f0f0f0", color: "#555" },
+  "计算器":         { bg: "#eaf4fb", color: "#2980b9" },
 };
 
 export default function ToolsPage() {
@@ -160,14 +174,14 @@ export default function ToolsPage() {
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {group.items.map((item) => {
               const t = tagColor[item.tag] || { bg: "#f0f0f0", color: "#555" };
+              const CardWrapper = ({ children }) =>
+                item.internal ? (
+                  <Link to={item.link} style={{ textDecoration: "none" }}>{children}</Link>
+                ) : (
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>{children}</a>
+                );
               return (
-                <a
-                  key={item.title}
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ textDecoration: "none" }}
-                >
+                <CardWrapper key={item.title}>
                   <div style={{
                     border: "1px solid #eee",
                     borderRadius: 10,
@@ -193,7 +207,7 @@ export default function ToolsPage() {
                     </div>
                     <span style={{ color: "#bbb", fontSize: "1rem", flexShrink: 0 }}>→</span>
                   </div>
-                </a>
+                </CardWrapper>
               );
             })}
           </div>
