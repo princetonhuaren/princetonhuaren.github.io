@@ -152,7 +152,7 @@ const CategoryPage = ({ category, title }) => {
             {refNotes.map((note) => (
               <div
                 key={note.id}
-                onClick={() => navigate(`/notes/${note.id}`)}
+                onClick={() => navigate(`/notes/${note.slug}`)}
                 className="ref-note-card"
                 style={{ borderLeft: `3px solid ${color || "#e0e0e0"}` }}
               >
