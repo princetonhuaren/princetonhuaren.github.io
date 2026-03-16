@@ -77,6 +77,50 @@ const tools = [
   },
 ];
 
+// 电话号码列表（Princeton 市区新居民信息）
+const phoneGroups = [
+  {
+    category: "🚨 紧急 & 非紧急",
+    note: "以下号码适用于 Princeton 市区（Borough）",
+    phones: [
+      { label: "火警 / 救护 / 报警（紧急）", number: "9-1-1" , highlight: true },
+      { label: "警察（非紧急）",             number: "609-921-2100" },
+      { label: "毒物中心（Poison Center）",  number: "800-222-1222" },
+    ],
+  },
+  {
+    category: "🏛️ 市政服务",
+    phones: [
+      { label: "市政厅 / Municipal Clerk",         number: "609-924-5704" },
+      { label: "市长办公室",                        number: "609-924-5176" },
+      { label: "垃圾收运（Garbage Pick-up）",       number: "609-688-2566" },
+      { label: "回收（Mercer County Recycling）",   number: "609-278-8086" },
+      { label: "Princeton Public Works",            number: "609-497-7639" },
+      { label: "动物管理（Animal Control）",         number: "609-924-2728" },
+      { label: "SAVE 小动物救援",                   number: "609-921-6122" },
+    ],
+  },
+  {
+    category: "💡 水电气",
+    phones: [
+      { label: "NJ American Water（自来水）",        number: "800-272-1325" },
+      { label: "PSE&G（电 / 天然气）",               number: "800-436-7734" },
+      { label: "Princeton 下水道",                   number: "609-497-7639" },
+      { label: "下水道紧急（After-Hours）",           number: "609-921-2100" },
+    ],
+  },
+  {
+    category: "🏥 医疗 & 社区",
+    phones: [
+      { label: "Princeton Health Care（UMCPP）",    number: "609-497-4000" },
+      { label: "Princeton Public Library",           number: "609-924-9529" },
+      { label: "Princeton Recreation",               number: "609-921-9480" },
+      { label: "卫生局（Health Office）",             number: "609-497-7608" },
+      { label: "老年人资源中心",                      number: "609-924-7108" },
+    ],
+  },
+];
+
 const tagColor = {
   "Princeton K-12": { bg: "#eaf4fb", color: "#2980b9" },
   "WW-P":           { bg: "#eafaf1", color: "#27ae60" },
@@ -148,8 +192,47 @@ export default function ToolsPage() {
         </div>
       ))}
 
+      {/* 电话号码区块 */}
+      <h2 style={{ fontSize: "1.1rem", fontWeight: 800, color: "#1a1a1a", margin: "40px 0 4px" }}>
+        📞 实用电话号码
+      </h2>
+      <p style={{ fontSize: "0.85rem", color: "#999", marginBottom: 24 }}>适用于 Princeton 市区（Borough）居民</p>
+
+      {phoneGroups.map((group) => (
+        <div key={group.category} style={{ marginBottom: 28 }}>
+          <h3 style={{ fontSize: "0.95rem", fontWeight: 700, color: "#444", marginBottom: 10 }}>
+            {group.category}
+          </h3>
+          <div style={{ border: "1px solid #eee", borderRadius: 10, overflow: "hidden" }}>
+            {group.phones.map((p, i) => (
+              <div
+                key={p.label}
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  padding: "10px 16px",
+                  background: p.highlight ? "#fff5f5" : i % 2 === 0 ? "#fff" : "#fafafa",
+                  borderTop: i === 0 ? "none" : "1px solid #f0f0f0",
+                }}
+              >
+                <span style={{ fontSize: "0.88rem", color: p.highlight ? "#c0392b" : "#333" }}>
+                  {p.label}
+                </span>
+                <a
+                  href={`tel:${p.number.replace(/-/g, "")}`}
+                  style={{ fontSize: "0.9rem", fontWeight: 700, color: p.highlight ? "#c0392b" : "#2980b9", textDecoration: "none", flexShrink: 0, marginLeft: 12 }}
+                >
+                  {p.number}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+
       <p style={{ marginTop: 32, color: "#aaa", fontSize: "0.82rem", textAlign: "center" }}>
-        有好用的网站想补充？欢迎加入微信群告诉我们 🙌
+        有好用的网站或号码想补充？欢迎加入微信群告诉我们 🙌
       </p>
     </div>
   );
