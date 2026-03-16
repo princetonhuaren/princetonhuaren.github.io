@@ -73,6 +73,12 @@ const tools = [
         link: "https://telegov.njportal.com/njmvc/AppointmentWizard",
         tag: "MVC",
       },
+      {
+        title: "Princeton 房产税网上缴纳",
+        desc: "Princeton 市区居民可在线缴纳房产税，每季度到期日：8/1、11/1、2/1、5/1，有10天宽限期",
+        link: "https://www.princetonnj.gov/1357/Tax-Collector",
+        tag: "Princeton Borough",
+      },
     ],
   },
 ];
@@ -92,6 +98,8 @@ const phoneGroups = [
     category: "🏛️ 市政服务",
     phones: [
       { label: "市政厅 / Municipal Clerk",         number: "609-924-5704" },
+      { label: "税务局 / Tax Collector",            number: "609-924-1058" },
+      { label: "税款减免咨询（老兵 / 老年人）",       number: "609-924-1084" },
       { label: "市长办公室",                        number: "609-924-5176" },
       { label: "垃圾收运（Garbage Pick-up）",       number: "609-688-2566" },
       { label: "回收（Mercer County Recycling）",   number: "609-278-8086" },
