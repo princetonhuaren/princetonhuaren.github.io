@@ -18,6 +18,7 @@ import MenuPage from "./pages/MenuPage";
 import NeighborhoodMapPage from "./pages/NeighborhoodMapPage";
 import PrincetonNeighborhoodsPage from "./pages/PrincetonNeighborhoodsPage";
 import EventsPage from "./pages/EventsPage";
+import ToolsPage from "./pages/ToolsPage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -28,6 +29,7 @@ const navItems = [
   { label: "住房",    key: "housing",   href: "/housing"    },
   { label: "服务",    key: "services",  href: "/services"   },
   { label: "社区",    key: "community", href: "/community"  },
+  { label: "工具",    key: "tools",     href: "/tools"      },
   { label: "社区笔记", key: "notes",    href: "/notes"      },
   { label: "关于",    key: "about",     href: "/about"      },
 ];
@@ -100,6 +102,7 @@ function AppContent() {
           <Route path="/housing/neighborhoods" element={<NeighborhoodMapPage />} />
           <Route path="/housing/princeton-neighborhoods" element={<PrincetonNeighborhoodsPage />} />
           <Route path="/events" element={<EventsPage />} />
+          <Route path="/tools"  element={<ToolsPage /> />
           <Route path="/education/princeton-school-guide" element={<PrincetonSchoolsPage />} />
           <Route path="/life/princeton-chinese-restaurant" element={<PrincetonFoodPage />} />
           <Route path="/life/princeton-kids-places" element={<PrincetonKidsPage />} />
