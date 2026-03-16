@@ -7,8 +7,8 @@ import remarkGfm from "remark-gfm";
 import { ArrowLeftOutlined, TeamOutlined } from "@ant-design/icons";
 
 const NoteDetails = () => {
-  const { noteId } = useParams();
-  const note = notes[noteId - 1];
+  const { slug } = useParams();
+  const note = notes.find((n) => n.slug === slug);
   const navigate = useNavigate();
 
   return (

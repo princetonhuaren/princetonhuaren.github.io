@@ -87,7 +87,7 @@ const Notes = () => {
         {notes.map((note) => (
           <div
             key={note.id}
-            onClick={() => navigate(`/notes/${note.id}`)}
+            onClick={() => navigate(`/notes/${note.slug}`)}
             className="ref-note-card"
             style={{ borderLeft: "3px solid #e0e0e0" }}
           >

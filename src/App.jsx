@@ -93,7 +93,7 @@ function AppContent() {
           <Route path="/community"     element={<Community />} />
           <Route path="/about"         element={<About />} />
           <Route path="/notes"         element={<Notes />} />
-          <Route path="/notes/:noteId" element={<NoteDetails />} />
+          <Route path="/notes/:slug" element={<NoteDetails />} />
           <Route path="/feedback"      element={<Feedback />} />
           <Route path="/map"           element={<UnifiedMapPage />} />
           <Route path="/life/menu"     element={<MenuPage />} />
