@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-buy-house-guide",
+    title: "普林斯顿买房全流程：贷款购房从 Pre-Approval 到拿钥匙",
+    summary: "两次亲历买房经历整理的完整流程：pre-approval、找房、律师审查期（NJ特有）、验房重点（lead/oil tank/radon）、过户当天，含费用汇总。",
+    category: "housing",
+    tags: ["买房", "贷款", "mortgage", "新泽西", "普林斯顿", "过户", "验房"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-16",
+    updated: "2026-03-16",
+    featured: true,
+    readingTime: 8,
+  },
+  {
     id: "princeton-to-nyc",
     title: "从普林斯顿去纽约，怎么去最划算？",
     summary: "自驾 vs 开车去火车站坐 NJ Transit，时间、费用、停车全攻略。带孩子推荐自驾，轻装逛街首选火车，周末来回约 $30–35。",
