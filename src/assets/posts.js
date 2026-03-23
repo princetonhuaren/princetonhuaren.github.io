@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-tax-guide",
+    title: "在美国怎么报税？普林斯顿华人报税全攻略（2025 年度）",
+    summary: "W2、1099、住 NJ 上班在 NY 双州报税、子女抵税、房贷利息、TurboTax 使用经验，覆盖普林斯顿华人最常见的报税场景。",
+    category: "services",
+    tags: ["报税", "税务", "W2", "1099", "TurboTax", "新泽西", "纽约", "NJ", "NY"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-23",
+    updated: "2026-03-23",
+    featured: true,
+    readingTime: 8,
+  },
+  {
     id: "princeton-townhouse-communities",
     title: "普林斯顿四大 Townhouse 小区横评：Campbell Woods、Washington Oaks、Queenston Common、Governors Lane",
     summary: "住在 Campbell Woods 的华人居民亲测，对比四个热门 Townhouse 小区的价格、HOA、学区、停车和生活便利度，帮你找到最适合的选择。",
