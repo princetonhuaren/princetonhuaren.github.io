@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
+import rehypeRaw from "rehype-raw";
 import { Tag } from "antd";
 import {
   ClockCircleOutlined,
@@ -141,7 +142,7 @@ const PostDetail = () => {
 
       {/* Content */}
       <div className="note-content">
-        <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm]} rehypePlugins={[rehypeSlug]}>{content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm]} rehypePlugins={[rehypeSlug, rehypeRaw]}>{content}</ReactMarkdown>
       </div>
 
       {/* Tags */}

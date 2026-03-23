@@ -20,6 +20,7 @@ import PrincetonNeighborhoodsPage from "./pages/PrincetonNeighborhoodsPage";
 import EventsPage from "./pages/EventsPage";
 import ToolsPage from "./pages/ToolsPage";
 import MortgageCalcPage from "./pages/MortgageCalcPage";
+import PrincetonTownhousePage from "./pages/PrincetonTownhousePage";
 import { Layout } from "antd";
 
 const navItems = [
@@ -97,6 +98,7 @@ function AppContent() {
           <Route path='/life/princeton-chinese-restaurant' element={<PrincetonFoodPage />} />
           <Route path='/life/princeton-kids-places' element={<PrincetonKidsPage />} />
           <Route path='/education/princeton-chinese-school' element={<PrincetonChineseSchoolPage />} />
+          <Route path='/housing/princeton-townhouse-communities' element={<PrincetonTownhousePage />} />
           <Route path='/:category/:postId' element={<PostDetail />} />
         </Routes>
       </Content>
