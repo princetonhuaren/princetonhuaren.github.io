@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-townhouse-communities",
+    title: "普林斯顿四大 Townhouse 小区横评：Campbell Woods、Washington Oaks、Queenston Common、Governors Lane",
+    summary: "住在 Campbell Woods 的华人居民亲测，对比四个热门 Townhouse 小区的价格、HOA、学区、停车和生活便利度，帮你找到最适合的选择。",
+    category: "housing",
+    tags: ["townhouse", "小区", "HOA", "买房", "普林斯顿", "Littlebrook", "学区"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-23",
+    updated: "2026-03-23",
+    featured: true,
+    readingTime: 6,
+  },
+  {
     id: "princeton-buy-house-guide",
     title: "普林斯顿买房全流程：贷款购房从 Pre-Approval 到拿钥匙",
     summary: "两次亲历买房经历整理的完整流程：pre-approval、找房、律师审查期（NJ特有）、验房重点（lead/oil tank/radon）、过户当天，含费用汇总。",
