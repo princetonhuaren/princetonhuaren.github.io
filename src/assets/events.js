@@ -17,6 +17,19 @@
 
 export const events = [
   {
+    id: "pasa-spring-break-camp-2026",
+    title: "Spring Break Camp 2026 — 创意·运动·领导力",
+    date: "2026-03-30",
+    endDate: "2026-04-03",
+    category: "kids",
+    location: "PASA Academy",
+    address: "99 Clarksville Rd, West Windsor, NJ",
+    desc: "K–6年级春假营，涵盖创意艺术、体育运动、STEM探索、舞蹈表演、领导力和团队挑战。全天 9am–4pm，延伸托管至 6pm。全周 $495，单日 $99，名额有限。",
+    note: "3/30–4/3（周一至周五）。可扫海报二维码或访问 pasaacademy.org 报名。",
+    link: "https://pasaacademy.org",
+    free: false,
+  },
+  {
     id: "marketfair-easter-bunny-2026",
     title: "MarketFair 复活节兔子拍照",
     date: "2026-03-13",
