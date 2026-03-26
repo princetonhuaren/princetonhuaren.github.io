@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "us-car-accident-guide",
+    title: "在美国遇到交通事故怎么办？从小碰擦到严重事故全攻略（新泽西版）",
+    summary: "轻微碰擦要不要报保险？新泽西 No-Fault 制度是什么？事故现场该做什么、不该做什么？结合亲身经历整理的实用指南。",
+    category: "life",
+    tags: ["交通事故", "保险", "新泽西", "驾车", "理赔", "No-Fault"],
+    location: "Princeton NJ",
+    author: "Andrew",
+    published: "2026-03-26",
+    updated: "2026-03-26",
+    featured: false,
+    readingTime: 7,
+  },
+  {
     id: "princeton-tax-guide",
     title: "在美国怎么报税？普林斯顿华人报税全攻略（2025 年度）",
     summary: "W2、1099、住 NJ 上班在 NY 双州报税、子女抵税、房贷利息、TurboTax 使用经验，覆盖普林斯顿华人最常见的报税场景。",
