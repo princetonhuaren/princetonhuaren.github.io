@@ -29,39 +29,57 @@
 
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0;">
   <div>
-    <img src="/liuziyu/teacher-ural-morning.png" alt="乌拉尔山的清晨" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-ural-morning.png" alt="乌拉尔山的清晨" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">乌拉尔山的清晨</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-golden-forest.png" alt="金色的森林" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-golden-forest.png" alt="金色的森林" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">金色的森林</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-golden-autumn.png" alt="金秋" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-golden-autumn.png" alt="金秋" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">金秋</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-forest-snow.png" alt="林中瑞雪" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-forest-snow.png" alt="林中瑞雪" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">林中瑞雪</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-summer-forest.png" alt="夏日的森林" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-summer-forest.png" alt="夏日的森林" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">夏日的森林</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-riverside-landscape.png" alt="河岸的风景" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-riverside-landscape.png" alt="河岸的风景" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">河岸的风景</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-countryside-scene.png" alt="郊外的景色" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-countryside-scene.png" alt="郊外的景色" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">郊外的景色</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-flowers-blooming.png" alt="鲜花盛开" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-flowers-blooming.png" alt="鲜花盛开" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">鲜花盛开</p>
   </div>
   <div>
-    <img src="/liuziyu/teacher-time-deepens.png" alt="岁月深长" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/teacher-time-deepens.png" alt="岁月深长" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">岁月深长</p>
   </div>
 </div>
@@ -131,67 +149,99 @@
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:16px 0;">
   <div>
-    <img src="/liuziyu/student-oil-lotus-pond.jpg" alt="学生油画荷花池风景" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-lotus-pond.jpg" alt="学生油画荷花池风景" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画·荷花池风景</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-autumn.jpg" alt="学生油画秋景" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-autumn.jpg" alt="学生油画秋景" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画·秋景</p>
   </div>
   <div>
-    <img src="/liuziyu/student-gouache-still-life.jpg" alt="学生水粉静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-gouache-still-life.jpg" alt="学生水粉静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">水粉·静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-gouache-lemon.jpg" alt="学生水粉静物柠檬" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-gouache-lemon.jpg" alt="学生水粉静物柠檬" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">水粉·柠檬静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-charcoal-portrait.jpg" alt="学生素描人像" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-charcoal-portrait.jpg" alt="学生素描人像" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">素描·人像</p>
   </div>
   <div>
-    <img src="/liuziyu/student-charcoal-teapot.jpg" alt="学生素描茶壶静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-charcoal-teapot.jpg" alt="学生素描茶壶静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">素描·茶壶静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-charcoal-mug.jpg" alt="学生素描马克杯静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-charcoal-mug.jpg" alt="学生素描马克杯静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">素描·马克杯静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-charcoal-bottles.jpg" alt="学生素描瓶子静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-charcoal-bottles.jpg" alt="学生素描瓶子静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">素描·瓶子静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-still-life.jpg" alt="学生油画棒静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-still-life.jpg" alt="学生油画棒静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-fruit.jpg" alt="学生油画棒水果静物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-fruit.jpg" alt="学生油画棒水果静物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·水果静物</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-peach.jpg" alt="学生油画棒桃子" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-peach.jpg" alt="学生油画棒桃子" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·桃子</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-gourd.jpg" alt="学生油画棒瓜" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-gourd.jpg" alt="学生油画棒瓜" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·瓜</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-landscape.jpg" alt="学生油画棒风景" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-landscape.jpg" alt="学生油画棒风景" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·风景</p>
   </div>
   <div>
-    <img src="/liuziyu/student-oil-pastel-dark-wings.jpg" alt="学生创意油画棒" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-oil-pastel-dark-wings.jpg" alt="学生创意油画棒" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">油画棒·创意绘画</p>
   </div>
   <div>
-    <img src="/liuziyu/student-colored-pencil-flowers.jpg" alt="学生彩铅花卉" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-colored-pencil-flowers.jpg" alt="学生彩铅花卉" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">彩铅·花卉</p>
   </div>
   <div>
-    <img src="/liuziyu/student-colored-pencil-animal.jpg" alt="学生彩铅创意动物" style="width:100%;border-radius:8px;display:block;" />
+    <div style="background:#f7f7f5;border-radius:8px;height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+      <img src="/liuziyu/student-colored-pencil-animal.jpg" alt="学生彩铅创意动物" style="max-width:100%;max-height:100%;object-fit:contain;" />
+    </div>
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">彩铅·创意动物</p>
   </div>
 </div>
