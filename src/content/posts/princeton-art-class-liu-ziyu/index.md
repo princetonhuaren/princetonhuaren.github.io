@@ -27,7 +27,7 @@
 
 ### 老师作品欣赏
 
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:16px 0;">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0;">
   <div>
     <img src="/liuziyu/teacher-ural-morning.png" alt="乌拉尔山的清晨" style="width:100%;border-radius:8px;display:block;" />
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">乌拉尔山的清晨</p>
@@ -59,6 +59,10 @@
   <div>
     <img src="/liuziyu/teacher-flowers-blooming.png" alt="鲜花盛开" style="width:100%;border-radius:8px;display:block;" />
     <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">鲜花盛开</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-time-deepens.png" alt="岁月深长" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">岁月深长</p>
   </div>
 </div>
 
