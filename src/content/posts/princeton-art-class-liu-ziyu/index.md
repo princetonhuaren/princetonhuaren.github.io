@@ -126,25 +126,66 @@
 
 ## 2026 年暑期营招生
 
-**上课地点：** 99 Clarksville Rd, West Windsor Township, NJ 08550（Princeton Arts & Sports Academy 内）
+📍 **上课地点：** 99 Clarksville Rd, West Windsor Township, NJ 08550（Princeton Arts & Sports Academy 内）
 
 **上课日期：** 共四周，周一至周五
-- 第一周：6/29 – 7/3
-- 第二周：7/6 – 7/10
-- 第三周：7/13 – 7/17
-- 第四周：7/20 – 7/24
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 20px;">
+  <div style="background:#fff8f0;border-radius:8px;padding:10px;text-align:center;border-top:3px solid #e8824a;">
+    <div style="font-size:0.75rem;color:#888;margin-bottom:2px;">第一周</div>
+    <div style="font-weight:600;font-size:0.9rem;">6/29 – 7/3</div>
+  </div>
+  <div style="background:#fff8f0;border-radius:8px;padding:10px;text-align:center;border-top:3px solid #e8824a;">
+    <div style="font-size:0.75rem;color:#888;margin-bottom:2px;">第二周</div>
+    <div style="font-weight:600;font-size:0.9rem;">7/6 – 7/10</div>
+  </div>
+  <div style="background:#fff8f0;border-radius:8px;padding:10px;text-align:center;border-top:3px solid #e8824a;">
+    <div style="font-size:0.75rem;color:#888;margin-bottom:2px;">第三周</div>
+    <div style="font-weight:600;font-size:0.9rem;">7/13 – 7/17</div>
+  </div>
+  <div style="background:#fff8f0;border-radius:8px;padding:10px;text-align:center;border-top:3px solid #e8824a;">
+    <div style="font-size:0.75rem;color:#888;margin-bottom:2px;">第四周</div>
+    <div style="font-weight:600;font-size:0.9rem;">7/20 – 7/24</div>
+  </div>
+</div>
 
 **班级安排：**
 
-| 班级 | 年龄 | 上课时间 | 人数上限 | 每周学费 |
-|------|------|----------|----------|----------|
-| 少年上午班 | 8–17 岁 | 10:00–12:00 | 限 12 人 | $225 |
-| 少年下午班 | 8–17 岁 | 1:00–4:00 | 限 12 人 | $337 |
-| 少儿班 | 5–7 岁 | 4:30–6:00 | 限 10 人 | $168 |
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:12px 0 20px;">
+  <div style="border:1px solid #e0d0c0;border-radius:10px;overflow:hidden;">
+    <div style="background:#e8824a;color:#fff;padding:10px 14px;font-weight:600;">少年上午班</div>
+    <div style="padding:14px;font-size:0.9rem;line-height:2;">
+      <div>👦 <strong>8–17 岁</strong></div>
+      <div>🕙 10:00–12:00</div>
+      <div>👥 限 12 人</div>
+      <div style="margin-top:8px;font-size:1.3rem;font-weight:700;color:#e8824a;">$225 <span style="font-size:0.8rem;font-weight:400;color:#888;">/ 周</span></div>
+    </div>
+  </div>
+  <div style="border:1px solid #c0d4e0;border-radius:10px;overflow:hidden;">
+    <div style="background:#4a90d9;color:#fff;padding:10px 14px;font-weight:600;">少年下午班</div>
+    <div style="padding:14px;font-size:0.9rem;line-height:2;">
+      <div>👦 <strong>8–17 岁</strong></div>
+      <div>🕐 1:00–4:00</div>
+      <div>👥 限 12 人</div>
+      <div style="margin-top:8px;font-size:1.3rem;font-weight:700;color:#4a90d9;">$337 <span style="font-size:0.8rem;font-weight:400;color:#888;">/ 周</span></div>
+    </div>
+  </div>
+  <div style="border:1px solid #c0e0cc;border-radius:10px;overflow:hidden;">
+    <div style="background:#3aaa6e;color:#fff;padding:10px 14px;font-weight:600;">少儿班</div>
+    <div style="padding:14px;font-size:0.9rem;line-height:2;">
+      <div>🧒 <strong>5–7 岁</strong></div>
+      <div>🕓 4:30–6:00</div>
+      <div>👥 限 10 人</div>
+      <div style="margin-top:8px;font-size:1.3rem;font-weight:700;color:#3aaa6e;">$168 <span style="font-size:0.8rem;font-weight:400;color:#888;">/ 周</span></div>
+    </div>
+  </div>
+</div>
 
 **周末班：** 周六、周日下午 2:00–5:00（费用请咨询老师）
 
-> ⚠️ 每班名额有限，报名从速。
+<div style="background:#fff3cd;border-left:4px solid #e8a020;border-radius:6px;padding:10px 14px;margin:12px 0;font-size:0.9rem;">
+⚠️ 每班名额有限，先到先得，报名从速！
+</div>
 
 ---
 
