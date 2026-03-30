@@ -27,7 +27,7 @@
 
 ### 老师作品欣赏
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0;">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:16px 0;">
   <div>
     <div style="background:#f5f0eb;border-radius:8px;height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
       <img src="/liuziyu/teacher-ural-morning.png" alt="乌拉尔山的清晨" style="max-width:100%;max-height:100%;object-fit:contain;" />
