@@ -118,9 +118,11 @@
   </div>
 </div>
 
-> 参观普林斯顿大学博物馆是课程亮点之一——近距离欣赏大师原作，远比看图片印象深刻。
+<div style="background:#f0fff4;border-left:4px solid #3aaa6e;border-radius:6px;padding:10px 14px;margin:4px 0 16px;font-size:0.9rem;color:#2d6a4f;">
+🏛️ 课程亮点：随老师参观普林斯顿大学博物馆，近距离欣赏大师原作，远比看图片印象深刻。
+</div>
 
-**教学理念：** 专业引导 · 系统训练 · 鼓励表达 · 尊重个性
+<div style="font-size:0.9rem;color:#555;margin-bottom:8px;"><strong>教学理念：</strong> 专业引导 · 系统训练 · 鼓励表达 · 尊重个性</div>
 
 ---
 
