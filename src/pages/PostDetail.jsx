@@ -27,6 +27,22 @@ const PostDetail = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (!post) return;
+    document.title = `${post.title} | 普林斯顿华人`;
+    let meta = document.querySelector('meta[name="description"]');
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.name = "description";
+      document.head.appendChild(meta);
+    }
+    meta.content = post.summary;
+    return () => {
+      document.title = "普林斯顿华人";
+      meta.content = "";
+    };
+  }, [post]);
+
   if (!post) {
     return (
       <div style={{ padding: "60px 24px", textAlign: "center" }}>
