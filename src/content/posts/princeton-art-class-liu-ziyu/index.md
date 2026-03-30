@@ -90,15 +90,33 @@
 
 刘老师的教学以**中西融汇**为特色，系统训练造型能力、色彩感知与创意表达，同时注重培养孩子的观察力和审美力。
 
-**五大课程模块：**
-
-| 模块 | 内容 |
-|------|------|
-| 🖊️ 素描基础 | 几何体结构、光影空间、静物写生、材质表现 |
-| 🎨 色彩系统 | 色彩原理、水粉/水彩/丙烯静物写生、冷暖关系 |
-| ✏️ 创意绘画 | 主题创作、构图设计、想象力开发、综合材料 |
-| 🏛️ 美术鉴赏 | **随老师参观普林斯顿大学博物馆**，中西经典讲解 |
-| 🌳 室外写生 | 公园自然写生、建筑速写、光影捕捉 |
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0;">
+  <div style="background:#fff8f0;border-radius:10px;padding:16px 18px;border-left:4px solid #e8824a;">
+    <div style="font-size:1.4rem;margin-bottom:6px;">🖊️</div>
+    <div style="font-weight:600;font-size:0.95rem;margin-bottom:8px;">素描基础</div>
+    <div style="font-size:0.85rem;color:#555;line-height:1.7;">几何体结构<br/>光影空间<br/>静物写生<br/>材质表现</div>
+  </div>
+  <div style="background:#f0f8ff;border-radius:10px;padding:16px 18px;border-left:4px solid #4a90d9;">
+    <div style="font-size:1.4rem;margin-bottom:6px;">🎨</div>
+    <div style="font-weight:600;font-size:0.95rem;margin-bottom:8px;">色彩系统</div>
+    <div style="font-size:0.85rem;color:#555;line-height:1.7;">色彩原理<br/>水粉 / 水彩 / 丙烯<br/>静物写生<br/>冷暖关系</div>
+  </div>
+  <div style="background:#f5f0ff;border-radius:10px;padding:16px 18px;border-left:4px solid #8a6fd1;">
+    <div style="font-size:1.4rem;margin-bottom:6px;">✏️</div>
+    <div style="font-weight:600;font-size:0.95rem;margin-bottom:8px;">创意绘画</div>
+    <div style="font-size:0.85rem;color:#555;line-height:1.7;">主题创作<br/>构图设计<br/>想象力开发<br/>综合材料</div>
+  </div>
+  <div style="background:#f0fff4;border-radius:10px;padding:16px 18px;border-left:4px solid #3aaa6e;">
+    <div style="font-size:1.4rem;margin-bottom:6px;">🏛️</div>
+    <div style="font-weight:600;font-size:0.95rem;margin-bottom:8px;">美术鉴赏</div>
+    <div style="font-size:0.85rem;color:#555;line-height:1.7;">随老师参观<br/><strong>普林斯顿大学博物馆</strong><br/>中西经典讲解</div>
+  </div>
+  <div style="background:#fffbf0;border-radius:10px;padding:16px 18px;border-left:4px solid #c9a227;">
+    <div style="font-size:1.4rem;margin-bottom:6px;">🌳</div>
+    <div style="font-weight:600;font-size:0.95rem;margin-bottom:8px;">室外写生</div>
+    <div style="font-size:0.85rem;color:#555;line-height:1.7;">公园自然写生<br/>建筑速写<br/>光影捕捉</div>
+  </div>
+</div>
 
 > 参观普林斯顿大学博物馆是课程亮点之一——近距离欣赏大师原作，远比看图片印象深刻。
 
