@@ -25,6 +25,43 @@
 
 更多详情可参阅<a href="https://baike.baidu.com/item/%E5%88%98%E5%AD%90%E8%88%86/58134893" target="_blank" rel="noopener noreferrer">刘子舆老师百度百科介绍</a>。
 
+### 老师作品欣赏
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:16px 0;">
+  <div>
+    <img src="/liuziyu/teacher-ural-morning.png" alt="乌拉尔山的清晨" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">乌拉尔山的清晨</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-golden-forest.png" alt="金色的森林" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">金色的森林</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-golden-autumn.png" alt="金秋" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">金秋</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-forest-snow.png" alt="林中瑞雪" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">林中瑞雪</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-summer-forest.png" alt="夏日的森林" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">夏日的森林</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-riverside-landscape.png" alt="河岸的风景" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">河岸的风景</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-countryside-scene.png" alt="郊外的景色" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">郊外的景色</p>
+  </div>
+  <div>
+    <img src="/liuziyu/teacher-flowers-blooming.png" alt="鲜花盛开" style="width:100%;border-radius:8px;display:block;" />
+    <p style="font-size:0.82rem;color:#888;text-align:center;margin-top:4px;">鲜花盛开</p>
+  </div>
+</div>
+
 ---
 
 ## 课程特色
