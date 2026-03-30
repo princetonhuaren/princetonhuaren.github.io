@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-art-class-liu-ziyu",
+    title: "普林斯顿华人画家刘子舆美术工作室：专业美术培训 + 2026 年暑期营招生",
+    summary: "留俄美术学博士、作品被北京首都机场和匈牙利国家博物馆收藏的画家刘子舆老师，在 West Windsor 开设美术工作室，招收 5–17 岁学员，含素描、色彩、创意绘画及普大博物馆参观。",
+    category: "education",
+    tags: ["美术", "暑期营", "儿童", "绘画", "West Windsor", "刘子舆"],
+    location: "West Windsor NJ",
+    author: "PrincetonHuaren",
+    published: "2026-03-30",
+    updated: "2026-03-30",
+    featured: true,
+    readingTime: 4,
+  },
+  {
     id: "us-car-accident-guide",
     title: "在美国遇到交通事故怎么办？从小碰擦到严重事故全攻略（新泽西版）",
     summary: "轻微碰擦要不要报保险？新泽西 No-Fault 制度是什么？事故现场该做什么、不该做什么？结合亲身经历整理的实用指南。",
