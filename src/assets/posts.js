@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "water-park-kalahari-great-wolf",
+    title: "Kalahari vs Great Wolf Lodge：Princeton 周边室内水上乐园完全攻略",
+    summary: "距 Princeton 约 1.5 小时的两大室内水上乐园对比——Kalahari 规模大刺激多，Great Wolf 低龄友好且有 MagiQuest 魔法游戏，含价格、订房技巧和出行实用贴士。",
+    category: "life",
+    tags: ["水上乐园", "亲子", "Kalahari", "Great Wolf", "Poconos", "周末出行"],
+    location: "Pocono Mountains PA",
+    author: "PrincetonHuaren",
+    published: "2026-04-02",
+    updated: "2026-04-02",
+    featured: false,
+    readingTime: 6,
+  },
+  {
     id: "princeton-art-class-liu-ziyu",
     title: "普林斯顿华人画家刘子舆美术工作室：专业美术培训 + 2026 年暑期营招生",
     summary: "留俄美术学博士、作品被北京首都机场和匈牙利国家博物馆收藏的画家刘子舆老师，在 West Windsor 开设美术工作室，招收 5–17 岁学员，含素描、色彩、创意绘画及普大博物馆参观。",
