@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "princeton-public-library",
+    title: "Princeton Public Library 完全使用指南：办卡、停车、免费资源全攻略",
+    summary: "Princeton 公共图书馆不只是借书——免费电影（Kanopy）、电子书（Libby）、3D 打印、公证服务，凭一张卡全部免费。含办卡方法、代办家人卡、Spring Street Garage 两小时免费停车详解。",
+    category: "life",
+    tags: ["图书馆", "Princeton", "免费资源", "Kanopy", "Libby", "停车"],
+    location: "Princeton NJ",
+    author: "PrincetonHuaren",
+    published: "2026-04-04",
+    updated: "2026-04-04",
+    featured: false,
+    readingTime: 5,
+  },
+  {
     id: "water-park-kalahari-great-wolf",
     title: "Kalahari vs Great Wolf Lodge：Princeton 周边室内水上乐园完全攻略",
     summary: "距 Princeton 约 1.5 小时的两大室内水上乐园对比——Kalahari 规模大刺激多，Great Wolf 低龄友好且有 MagiQuest 魔法游戏，含价格、订房技巧和出行实用贴士。",
