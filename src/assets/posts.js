@@ -23,6 +23,19 @@ const contentMap = Object.fromEntries(
 // ── 元数据列表（按发布时间倒序排列）──────────────────────────
 export const posts = [
   {
+    id: "home-cleaning-guide",
+    title: "美国家庭清洁指南：日常维护 + 退租必备清洁攻略",
+    summary: "Magic Eraser、Easy-Off、Bar Keepers Friend、CLR……华人家庭实用清洁产品汇总，含厨房重油污处理、地毯清洗（Home Depot 租机或自购 Bissell）、退租大扫除全流程清单。",
+    category: "life",
+    tags: ["清洁", "退租", "地毯", "厨房", "Magic Eraser", "生活技巧"],
+    location: "Princeton NJ",
+    author: "PrincetonHuaren",
+    published: "2026-04-05",
+    updated: "2026-04-05",
+    featured: false,
+    readingTime: 6,
+  },
+  {
     id: "princeton-public-library",
     title: "Princeton Public Library 完全使用指南：办卡、停车、免费资源全攻略",
     summary: "Princeton 公共图书馆不只是借书——免费电影（Kanopy）、电子书（Libby）、3D 打印、公证服务，凭一张卡全部免费。含办卡方法、代办家人卡、Spring Street Garage 两小时免费停车详解。",
